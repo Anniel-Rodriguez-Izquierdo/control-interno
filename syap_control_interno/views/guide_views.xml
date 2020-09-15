@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!--Guia de AutoControl : Vista en forma de Plantilla-->
+    <record model="ir.ui.view" id="view_tree_guide">
+        <field name="name">syap.ic.guide.tree</field>
+        <field name="model">syap.ic.guide</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="company_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_guide">
+        <field name="name">syap.ic.guide.form</field>
+        <field name="model">syap.ic.guide</field>
+        <field name="arch" type="xml">
+            <form string="Guide">
+                <header>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="company_id"/>
+                        <field name="parent_guide_id"/>
+                        <field name="name"/>
+                    </group>
+                    <notebook>
+                        <page string="Questions">
+                            <p class="oe_grey">
+                                The red element belongs to this company,
+                                the other has benn inherited from the parent guide
+                            </p>
+                            <field name="question_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_view_tree_guide_templates">
+        <field name="name">AutoControl Templates Guide</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">syap.ic.guide</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new auto control templates guide
+            </p>
+            <p>
+                Create and manage your template for auto control guide here.
+            </p>
+        </field>
+    </record>
+
+    <!--Guia de AutoControl : Vista en forma de formulario para resolver la guia-->
+    <record model="ir.ui.view" id="view_form_guide_to_resolve">
+        <field name="name">syap.ic.guide.to_resolve.form</field>
+        <field name="model">syap.ic.guide</field>
+        <field name="arch" type="xml">
+            <form string="Guide">
+                <sheet>
+                    <div class="oe_title">
+                        <h2>
+                            <field name="name" readonly="1"/>
+                        </h2>
+                        <br/>
+                    </div>
+                    <field name="advance_form_view"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_view_tree_guide_to_resolve">
+        <field name="name">AutoControl Guide</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">syap.ic.guide</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Select an <b>AutoControl Guide</b> for resolve it.
+            </p>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window.view" id="action_view_tree_guide_to_resolve_view_tree">
+        <field name="sequence" eval="1"/>
+        <field name="view_mode">tree</field>
+        <field name="act_window_id" ref="action_view_tree_guide_to_resolve"/>
+        <field name="view_id" ref="view_tree_guide"/>
+    </record>
+
+    <record model="ir.actions.act_window.view" id="action_view_tree_guide_to_resolve_view_form">
+        <field name="sequence" eval="2"/>
+        <field name="view_mode">form</field>
+        <field name="act_window_id" ref="action_view_tree_guide_to_resolve"/>
+        <field name="view_id" ref="view_form_guide_to_resolve"/>
+    </record>
+
+    <template id="autocontrol_guide_template" name="AutoControl Guide">
+        <t t-call="web.html_container">
+            <t t-set="full_width" t-value="True"/>
+
+            <form>
+                <table class="table table-responsive table-condensed table-bordered table-striped table-hover">
+                    <tbody>
+                        <t t-foreach="components" t-as="component">
+                            <t t-set="component" t-value="components[component]"/>
+
+                            <tr>
+                                <td colspan="5" class="text-center">
+                                    <b t-esc="component['title']"></b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 50px;" class="text-center">
+                                    <b>NO.</b>
+                                </td>
+                                <td style="width: 500px;" class="text-center">
+                                    <b>ASPECTOS A VERIFICAR</b>
+                                </td>
+                                <td style="width: 80px;" class="text-center">
+                                    <b>Si / No</b>
+                                </td>
+                                <td style="width: 470px;" class="text-center">
+                                    <b>Fundamento Causas</b>
+                                </td>
+                                <td style="width: 320px;" class="text-center">
+                                    <b>Plan de acción</b>
+                                </td>
+                            </tr>
+
+                            <t t-foreach="component['topics']" t-as="topic">
+                                <t t-set="topic" t-value="component['topics'][topic]"/>
+                                <tr style="background: rgb(141,179,226);">
+                                    <td></td>
+                                    <td colspan="4">
+                                        <b t-esc="topic['title']"></b>
+                                    </td>
+                                </tr>
+                                <t t-foreach="topic['questions']" t-as="question">
+                                    <tr>
+                                        <td>
+                                            <span t-esc="question.sequence"/>
+                                        </td>
+                                        <td>
+                                            <ul style="margin: 0px;padding-left: 10px;list-style: none;">
+                                                <li>
+                                                    <span t-esc="question.name"/>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <select t-att-name="'response-question-' + question.code">
+                                                <option value="unknown"></option>
+                                                <option value="yes">Si</option>
+                                                <option value="no">No</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <t t-foreach="question.response_explanation" t-as="explanation">
+                                                    <li>
+                                                        <span t-esc="explanation.name"/>
+                                                    </li>
+                                                </t>
+                                            </ul>
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                </t>
+                            </t>
+                        </t>
+                    </tbody>
+                </table>
+            </form>
+        </t>
+    </template>
+</odoo>

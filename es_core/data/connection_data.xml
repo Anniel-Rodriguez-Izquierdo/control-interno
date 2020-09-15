@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="es.sql.provider.group" forcecreate="1" id="provider_group_msserver">
+            <field name="name">SQL Servers</field>
+        </record>
+
+        <record model="es.sql.provider.group" forcecreate="1" id="provider_group_postgres">
+            <field name="name">Postgres Servers</field>
+        </record>
+
+        <record model="es.sql.provider.group" forcecreate="1" id="provider_group_mysql">
+            <field name="name">MySQL Servers</field>
+        </record>
+
+        <record model="es.sql.provider" forcecreate="1" id="default_msserver_provider">
+            <field name="name">Local</field>
+            <field name="host">localhost</field>
+            <field name="database">versat</field>
+            <field name="username">sa</field>
+            <field name="password">Versat.01</field>
+            <field name="provider_group_id" ref="provider_group_msserver"/>
+            <field name="unit_sql_id">1</field>
+        </record>
+    </data>
+</odoo>

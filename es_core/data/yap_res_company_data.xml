@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2020 StarYAP
+    PaKaMa <pablocm83@gmail.com>
+    Develop by StarYaP
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+-->
+<odoo>
+    <data noupdate="1">
+
+        !-- Basic main Company  -->
+        <record id="base.main_company" model="res.company">
+            <field name="currency_id" ref="base.CUP"/>
+            <field name="activity">other</field>
+            <field name="company_type">OTRO</field>
+        </record>
+    </data>
+</odoo>

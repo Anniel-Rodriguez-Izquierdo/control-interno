@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--Menu /Apps/App Store-->
+    <record model="ir.ui.menu" id="base.module_mi">
+        <field name="active" eval="0"/>
+    </record>
+
+    <!--Menu /Apps/Updates-->
+    <record model="ir.ui.menu" id="base.menu_module_updates">
+        <field name="active" eval="0"/>
+    </record>
+
+    <!--Menu /Apps/Upgrades-->
+    <record model="ir.ui.menu" id="base.menu_view_base_module_upgrade">
+        <field name="active" eval="0"/>
+    </record>
+</odoo>

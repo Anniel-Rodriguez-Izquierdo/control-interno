@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_form_res_users">
+        <field name="name">res.users.form</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <div class="oe_title" position="replace">
+                <div class="oe_title">
+                    <group>
+                        <field name="name"/>
+                        <field name="login"/>
+                        <field name="email"/>
+                        <field name="company_id" context="{'user_preference': 0}"
+                               groups="base.group_multi_company"/>
+                        <field name="partner_id" readonly="1" required="0" groups="base.group_no_one"
+                               attrs="{'invisible': [('id', '=', False)]}"/>
+                        <field name="active"/>
+                    </group>
+                </div>
+            </div>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_preference_res_users">
+        <field name="name">res.users.form.preferences</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+        <field name="arch" type="xml">
+            <field name="email" position="replace"/>
+
+            <group name="preferences" position="replace">
+                <group name="preferences">
+                    <group>
+                        <field name="login"/>
+                        <field name="email"/>
+                    </group>
+                    <group>
+                        <field name="company_id" options="{'no_create': True}"
+                               readonly="0" groups="base.group_multi_company"/>
+                        <field name="lang" readonly="0"/>
+                        <field name="tz" readonly="0"/>
+                    </group>
+                </group>
+            </group>
+        </field>
+    </record>
+</odoo>

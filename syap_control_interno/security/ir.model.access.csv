@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ic_guide_by_user,syap.ic.guide,model_syap_ic_guide,,1,1,1,1
+access_ic_guide_question_by_user,syap.ic.guide.question,model_syap_ic_guide_question,,1,1,1,1
+access_ic_guide_question_line_by_user,syap.ic.guide.question.line,model_syap_ic_guide_question_line,,1,1,1,1
+access_ic_component_by_user,syap.ic.component,model_syap_ic_component,,1,1,1,1
+access_ic_area_of_interest_by_user,syap.ic.area_of_interest,model_syap_ic_area_of_interest,,1,1,1,1
+access_ic_topic_by_user,syap.ic.topic,model_syap_ic_topic,,1,1,1,1
+access_ic_question_explanation_by_user,syap.ic.question.explanation,model_syap_ic_question_explanation,,1,1,1,1

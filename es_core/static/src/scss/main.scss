@@ -1,0 +1,174 @@
+@keyframes blink {
+  from, to { opacity: 1 }
+  50% { opacity: 0 }
+}
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(35deg);
+    }
+    12.5% {
+        -webkit-transform: rotate(-30deg);
+    }
+    25% {
+        -webkit-transform: rotate(25deg);
+    }
+    37.5% {
+        -webkit-transform: rotate(-20deg);
+    }
+    50% {
+        -webkit-transform: rotate(15deg);
+    }
+    62.5% {
+        -webkit-transform: rotate(-10deg);
+    }
+    75% {
+        -webkit-transform: rotate(5deg);
+    }
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@keyframes lightbulb {
+  from, to { color: inherit; }
+  50% { color:yellow; }
+}
+
+.blink_effect {
+    -webkit-animation: blink 1.5s ease infinite;
+    animation: blink 1.5s ease infinite;
+}
+
+.bell_effect {
+    -webkit-animation: ring 1.5s ease infinite;
+    animation: ring 1.5s ease infinite;
+}
+
+.lightbulb_effect {
+    -webkit-animation: lightbulb 1.5s ease infinite;
+    animation: lightbulb 1.5s ease infinite;
+}
+
+.o_view_nocontent {
+    width: 100%;
+}
+
+.sticky_notes_container {
+    p { margin-bottom: 0rem !important; }
+}
+
+.o_notification_manager {
+    top: 4rem !important;
+    right: 4px !important;
+}
+
+.o_menu_systray {
+    .o_alert_systray_item > a > i {
+        font-size: larger;
+        transform: translateY(0px);
+    }
+
+    .o_notification_counter {
+        -webkit-animation: blink 1.5s ease infinite;
+        animation: blink 1.5s ease infinite;
+    }
+
+    .o_preview_title > .o_preview_name:first-child {
+        font-weight: bold !important;
+    }
+
+    .o_alert_systray_item .o_notification_counter {
+        background: #00A09D;
+        color: white;
+        vertical-align: super;
+        font-size: 0.7em;
+        z-index: 999999;
+        margin-top: -0.8rem;
+        margin-right: 0;
+        margin-left: -0.6rem;
+    }
+
+    .o_alert_systray_dropdown,
+    .o_tips_systray_dropdown,
+    .o_concurrency_systray_dropdown {
+        padding: 0px !important;
+    }
+
+    .o_alert_systray_dropdown .o_alert_systray_dropdown_items,
+    .o_tips_systray_dropdown .o_tips_systray_dropdown_items,
+    .o_concurrency_systray_dropdown .o_concurrency_systray_dropdown_items {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 auto;
+        flex: 0 1 auto;
+        max-height: 400px;
+        min-height: 50px;
+        min-width:350px;
+        overflow-y: auto;
+
+        .o_no_activity:hover,
+        .o_alert_preview:hover,
+        .o_tips_preview:hover {
+            background-color: #dee2e6;
+        }
+
+        .o_no_activity {
+            cursor: initial;
+            align-items: center;
+            color: grey;
+            opacity: 0.5;
+            padding: 3px;
+        }
+
+        .o_alert_preview,
+        .o_tips_preview {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            background-color: #f8f9fa;
+            color: #4c4c4c;
+            cursor: pointer;
+            overflow: hidden;
+            position: relative;
+            min-height: 50px;
+            padding: 5px;
+
+            .o_mail_preview_image img {
+                width: 48px;
+                height: 48px;
+            }
+
+            .o_preview_info {
+                flex-grow:1;
+                margin-left: 4px;
+            }
+        }
+    }
+}
+
+.o_web_client.o_touch_device .ui-autocomplete .ui-menu-item > a,
+.ui-autocomplete .o_web_client.o_touch_device .ui-menu-item > a,
+.o_web_client.o_touch_device .show .dropdown-menu .dropdown-item,
+.show .dropdown-menu .o_web_client.o_touch_device .dropdown-item,
+.o_web_client.o_touch_device .show .dropdown-menu .dropdown-header,
+.show .dropdown-menu .o_web_client.o_touch_device .dropdown-header {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.o_settings_container .o_setting_box .o_setting_right_pane .o_field_widget {
+    width: 100%;
+}
+
+ul.nav-tabs .nav-item-important > .nav-link {
+    background: $o-tab-important-bg-default !important;
+}
+
+ul.nav-tabs .nav-item-important > .nav-link.active {
+    background: $o-tab-important-bg-active !important;
+    color: $o-tab-important-color-active !important;
+}
+.table-supercondensed th,
+.table-supercondensed td {
+    padding:0px !important;
+}

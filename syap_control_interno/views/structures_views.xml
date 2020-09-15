@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_company_form" model="ir.ui.view">
+        <field name="name">res.company.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="es_core.view_company_form"/>
+        <field name="arch" type="xml">
+            <field name="website" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="currency_id" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="token" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_view_tree_entities">
+        <field name="name">Entities</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.company</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,kanban,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new entity
+            </p>
+            <p>
+                Create and manage the entities that will be managed from here.
+            </p>
+        </field>
+    </record>
+</odoo>

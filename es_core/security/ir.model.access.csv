@@ -1,0 +1,15 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ir_cron_by_user,ir.cron,base.model_ir_cron,,1,1,1,1
+access_res_country_state_city_by_user,res.country.state.city,model_res_country_state_city,,1,1,1,1
+
+access_sql_provider_group_by_user,es.sql.provider.group,model_es_sql_provider_group,,1,1,1,1
+access_sql_provider_by_user,es.sql.provider,model_es_sql_provider,,1,1,1,1
+access_sql_query_by_user,es.sql.query,model_es_sql_query,,1,1,1,1
+access_sql_query_consolidable_field_by_user,es.sql.query.consolidable.field,model_es_sql_query_consolidable_field,,1,1,1,1
+access_sql_helper_parameter_by_user,es.sql.helper.parameter,model_es_sql_helper_parameter,,1,1,1,1
+
+access_sql_helper_by_user,es.sql.helper,model_es_sql_helper,,1,0,0,0
+access_sql_helper_by_root,es.sql.helper,model_es_sql_helper,base.user_root,1,1,1,1
+
+access_syap_organism_user,access_syap_organism_user,model_syap_organism,,1,0,0,0
+access_res_partner_user,access_res_partner_user,base.model_res_partner,,1,1,1,1

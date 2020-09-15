@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="cu_IND" model="res.country.state">
+            <field name="country_id" ref="base.cu"/>
+            <field name="code">IND</field>
+            <field name="name">Territorio Indefinido</field>
+        </record>
+    </data>
+</odoo>

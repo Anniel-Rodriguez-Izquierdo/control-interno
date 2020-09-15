@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="res_partner_view_form_private">
+        <field name="name">res.partner.view.form.private</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.res_partner_view_form_private"/>
+        <field name="priority" eval="400"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group[2]" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <field name="name" position="after">
+                <!--necesario para ciertos domains que incluye el modulo 'base_address_city'-->
+                <field name="parent_id" invisible="1"/>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="yap_view_partner_short_form">
+        <field name="name">res.partner.view.form.short</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_short_form"/>
+        <field name="arch" type="xml">
+            <field name="vat" position="after">
+                <field name="nae"/>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_partner_address_form">
+        <field name="name">res.partner.form.address</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_address_form"/>
+        <field name="arch" type="xml">
+            <field name="name" position="attributes">
+                <attribute name="readonly">0</attribute>
+            </field>
+        </field>
+    </record>
+
+    <record id="yap_view_partner_tree" model="ir.ui.view">
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='country_id']" position="after">
+                <field name="state_id" invisible="1"/>
+                <field name="city" invisible="1"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="yap_view_res_partner_filter" model="ir.ui.view">
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='phone']" position="after">
+                <separator/>
+                <field name="country_id" string="Country" filter_domain="[('country_id','ilike', self)]"/>
+                <field name="state_id" string="State" filter_domain="[('state_id','ilike', self)]"/>
+                <field name="city" string="City" filter_domain="[('city','ilike', self)]"/>
+            </xpath>
+            <xpath expr="//filter[@name='group_country']" position="after">
+                <filter name="group_state" string="State" context="{'group_by': 'state_id'}"/>
+                <filter name="group_city" string="City" context="{'group_by': 'city'}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

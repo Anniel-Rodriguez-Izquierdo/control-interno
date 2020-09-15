@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="syap.ic.area_of_interest" id="data_aoi_common">
+        <field name="name">Comun</field>
+        <field name="code">aoi_common</field>
+    </record>
+</odoo>

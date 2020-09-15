@@ -1,0 +1,169 @@
+"id","state_id:id","zip","other_zip","code","name"
+res_country_state_city_2101,cu_PRI,24150,"",2101,Sandino
+res_country_state_city_2102,cu_PRI,22200,"",2102,Mantua
+res_country_state_city_2103,cu_PRI,22300,"",2103,Minas de Matahambre
+res_country_state_city_2104,cu_PRI,22400,"",2104,Viñales
+res_country_state_city_2105,cu_PRI,22600,"",2105,La Palma
+res_country_state_city_2106,cu_PRI,22900,"",2106,Los Palacios
+res_country_state_city_2107,cu_PRI,23000,"",2107,Consolación del Sur
+res_country_state_city_2108,cu_PRI,20100,"",2108,Pinar del Río
+res_country_state_city_2109,cu_PRI,23100,"",2109,San Luis
+res_country_state_city_2110,cu_PRI,23200,"",2110,San Juan y Martínez
+res_country_state_city_2111,cu_PRI,23300,"",2111,Guane
+res_country_state_city_2201,cu_ART,22600,"",2201,Bahía Honda
+res_country_state_city_2202,cu_ART,32100,"",2202,Mariel
+res_country_state_city_2203,cu_ART,32200,"",2203,Guanajay
+res_country_state_city_2204,cu_ART,32300,"",2204,Caimito
+res_country_state_city_2205,cu_ART,32400,"",2205,Bauta
+res_country_state_city_2206,cu_ART,32500,"",2206,San Antonio de los Baños
+res_country_state_city_2207,cu_ART,33600,"",2207,Güira de Melena
+res_country_state_city_2208,cu_ART,33700,"",2208,Alquízar
+res_country_state_city_2209,cu_ART,33800,"",2209,Artemisa
+res_country_state_city_2210,cu_ART,22600,"",2210,Candelaria
+res_country_state_city_2211,cu_ART,22800,"",2211,San Cristóbal
+res_country_state_city_2301,cu_LH,11300,"",2301,Playa
+res_country_state_city_2302,cu_LH,10400,"",2302,Plaza de la Revolución
+res_country_state_city_2303,cu_LH,10200,"",2303,Centro Habana
+res_country_state_city_2304,cu_LH,10100,"",2304,La Habana Vieja
+res_country_state_city_2305,cu_LH,11200,"",2305,Regla
+res_country_state_city_2306,cu_LH,10900,"",2306,La Habana del Este
+res_country_state_city_2307,cu_LH,11100,"",2307,Guanabacoa
+res_country_state_city_2308,cu_LH,11000,"",2308,San Miguel del Padrón
+res_country_state_city_2309,cu_LH,10700,10500,2309,Diez de Octubre
+res_country_state_city_2310,cu_LH,10600,"",2310,Cerro
+res_country_state_city_2311,cu_LH,11500,"",2311,Marianao
+res_country_state_city_2312,cu_LH,17100,"",2312,La Lisa
+res_country_state_city_2313,cu_LH,10800,"",2313,Boyeros
+res_country_state_city_2314,cu_LH,10900,"",2314,Arroyo Naranjo
+res_country_state_city_2315,cu_LH,14000,"",2315,Cotorro
+res_country_state_city_2401,cu_MAY,32600,"",2401,Bejucal
+res_country_state_city_2402,cu_MAY,32700,"",2402,San José de las Lajas
+res_country_state_city_2403,cu_MAY,32800,"",2403,Jaruco
+res_country_state_city_2404,cu_MAY,32900,"",2404,Santa Cruz del Norte
+res_country_state_city_2405,cu_MAY,33000,"",2405,Madruga
+res_country_state_city_2406,cu_MAY,33100,"",2406,Nueva Paz
+res_country_state_city_2407,cu_MAY,33200,"",2407,San Nicolás
+res_country_state_city_2408,cu_MAY,33900,"",2408,Güines
+res_country_state_city_2409,cu_MAY,33300,"",2409,Melena del Sur
+res_country_state_city_2410,cu_MAY,33400,"",2410,Batabanó
+res_country_state_city_2411,cu_MAY,33500,"",2411,Quivicán
+res_country_state_city_2501,cu_MAZ,40100,"",2501,Matanzas
+res_country_state_city_2502,cu_MAZ,42110,"",2502,Cárdenas
+res_country_state_city_2503,cu_MAZ,42300,"",2503,Martí
+res_country_state_city_2504,cu_MAZ,42400,"",2504,Colón
+res_country_state_city_2505,cu_MAZ,42500,"",2505,Perico
+res_country_state_city_2506,cu_MAZ,42600,"",2506,Jovellanos
+res_country_state_city_2507,cu_MAZ,42700,"",2507,Pedro Betancourt
+res_country_state_city_2508,cu_MAZ,42800,"",2508,Limonar
+res_country_state_city_2509,cu_MAZ,42900,"",2509,Unión de Reyes
+res_country_state_city_2510,cu_MAZ,4300,"",2510,Ciénaga de Zapata
+res_country_state_city_2511,cu_MAZ,43100,"",2511,Jagüey Grande
+res_country_state_city_2512,cu_MAZ,43200,"",2512,Calimete
+res_country_state_city_2513,cu_MAZ,43300,"",2513,Los Arabos
+res_country_state_city_2601,cu_VLC,52100,"",2601,Corralillo
+res_country_state_city_2602,cu_VLC,52200,"",2602,Quemado de Güines
+res_country_state_city_2603,cu_VLC,53310,"",2603,Sagua la Grande
+res_country_state_city_2604,cu_VLC,52400,"",2604,Encrucijada
+res_country_state_city_2605,cu_VLC,52500,"",2605,Camajuaní
+res_country_state_city_2606,cu_VLC,52610,"",2606,Caibarién
+res_country_state_city_2607,cu_VLC,52700,"",2607,Remedios
+res_country_state_city_2608,cu_VLC,52800,"",2608,Placetas
+res_country_state_city_2609,cu_VLC,50100,"",2609,Santa Clara
+res_country_state_city_2610,cu_VLC,52900,"",2610,Cifuentes
+res_country_state_city_2611,cu_VLC,53100,"",2611,Santo Domingo
+res_country_state_city_2612,cu_VLC,53100,"",2612,Ranchuelo
+res_country_state_city_2613,cu_VLC,53200,"",2613,Manicaragua
+res_country_state_city_2701,cu_CFG,57100,"",2701,Aguada de Pasajeros
+res_country_state_city_2702,cu_CFG,57200,"",2702,Rodas
+res_country_state_city_2703,cu_CFG,57300,"",2703,Palmira
+res_country_state_city_2704,cu_CFG,57400,"",2704,Lajas
+res_country_state_city_2705,cu_CFG,57500,"",2705,Cruces
+res_country_state_city_2706,cu_CFG,57600,"",2706,Cumanayagua
+res_country_state_city_2707,cu_CFG,55100,"",2707,Cienfuegos
+res_country_state_city_2708,cu_CFG,57700,"",2708,Abreus
+res_country_state_city_2801,cu_SSP,62100,"",2801,Yaguajay
+res_country_state_city_2802,cu_SSP,62200,"",2802,Jatibonico
+res_country_state_city_2803,cu_SSP,62300,"",2803,Taguasco
+res_country_state_city_2804,cu_SSP,62410,"",2804,Cabaiguán
+res_country_state_city_2805,cu_SSP,62500,"",2805,Fomento
+res_country_state_city_2806,cu_SSP,62600,"",2806,Trinidad
+res_country_state_city_2807,cu_SSP,60100,"",2807,Sancti Spíritus
+res_country_state_city_2808,cu_SSP,62700,"",2808,La Sierpe
+res_country_state_city_2901,cu_CAV,67100,"",2901,Chambas
+res_country_state_city_2902,cu_CAV,67210,"",2902,Morón
+res_country_state_city_2903,cu_CAV,67300,"",2903,Bolivia
+res_country_state_city_2904,cu_CAV,67400,"",2904,Primero de Enero
+res_country_state_city_2905,cu_CAV,67500,"",2905,Ciro Redondo
+res_country_state_city_2906,cu_CAV,67600,"",2906,Florencia
+res_country_state_city_2907,cu_CAV,67700,"",2907,Majagua
+res_country_state_city_2908,cu_CAV,65100,"",2908,Ciego de Ávila
+res_country_state_city_2909,cu_CAV,67800,"",2909,Venezuela
+res_country_state_city_2910,cu_CAV,67900,"",2910,Baraguá
+res_country_state_city_3001,cu_CMG,72100,"",3001,Carlos Manuel de Céspedes
+res_country_state_city_3002,cu_CMG,72200,"",3002,Esmeralda
+res_country_state_city_3003,cu_CMG,72300,"",3003,Sierra de Cubitas
+res_country_state_city_3004,cu_CMG,72400,"",3004,Minas
+res_country_state_city_3005,cu_CMG,72510,72520,3005,Nuevitas
+res_country_state_city_3006,cu_CMG,72600,"",3006,Guáimaro
+res_country_state_city_3007,cu_CMG,72700,"",3007,Sibanicú
+res_country_state_city_3008,cu_CMG,70100,70200,3008,Camagüey
+res_country_state_city_3009,cu_CMG,72810,"",3009,Florida
+res_country_state_city_3010,cu_CMG,72900,"",3010,Vertientes
+res_country_state_city_3011,cu_CMG,7300,"",3011,Jimaguayú
+res_country_state_city_3012,cu_CMG,74370,"",3012,Najasa
+res_country_state_city_3013,cu_CMG,73200,"",3013,Santa Cruz del Sur
+res_country_state_city_3101,cu_LTU,77100,"",3101,Manatí
+res_country_state_city_3102,cu_LTU,77200,"",3102,Puerto Padre
+res_country_state_city_3103,cu_LTU,77300,"",3103,Jesús  Menéndez
+res_country_state_city_3104,cu_LTU,77400,"",3104,Majibacoa
+res_country_state_city_3105,cu_LTU,75500,75100,3105,Las Tunas
+res_country_state_city_3106,cu_LTU,77500,"",3106,Jobabo
+res_country_state_city_3107,cu_LTU,77600,"",3107,Colombia
+res_country_state_city_3108,cu_LTU,77700,"",3108,Amancio
+res_country_state_city_3201,cu_HLG,82100,"",3201,Gibara
+res_country_state_city_3401,cu_SCU,92100,"",3401,Contramaestre
+res_country_state_city_3402,cu_SCU,92200,"",3402,Mella
+res_country_state_city_3202,cu_HLG,83300,"",3202,Rafael Freyre
+res_country_state_city_3403,cu_SCU,92300,"",3403,San Luis
+res_country_state_city_3203,cu_HLG,82300,"",3203,Banes
+res_country_state_city_3204,cu_HLG,82400,"",3204,Antilla
+res_country_state_city_3404,cu_SCU,92100,"",3404,Segundo Frente
+res_country_state_city_3405,cu_SCU,92610,"",3405,Songo  La Maya
+res_country_state_city_3205,cu_HLG,82500,"",3205,Báguanos
+res_country_state_city_3206,cu_HLG,80100,"",3206,Holguín
+res_country_state_city_3406,cu_SCU,90100,"",3406,Santiago de Cuba
+res_country_state_city_3407,cu_SCU,92610,"",3407,Palma Soriano
+res_country_state_city_3207,cu_HLG,82600,"",3207,Calixto García
+res_country_state_city_3208,cu_HLG,57200,"",3208,Cacocum
+res_country_state_city_3408,cu_SCU,92700,"",3408,Tercer Frente
+res_country_state_city_3209,cu_HLG,82800,"",3209,Urbano Noris
+res_country_state_city_3409,cu_SCU,92800,"",3409,Guamá
+res_country_state_city_3210,cu_HLG,82900,"",3210,Cueto
+res_country_state_city_3211,cu_HLG,83000,"",3211,Mayarí
+res_country_state_city_3212,cu_HLG,83100,"",3212,Frank País
+res_country_state_city_3213,cu_HLG,83200,"",3213,Sagua de Tánamo
+res_country_state_city_3214,cu_HLG,83310,"",3214,Moa
+res_country_state_city_3301,cu_GRM,87100,"",3301,Río Cauto
+res_country_state_city_3302,cu_GRM,87200,"",3302,Cauto Cristo
+res_country_state_city_3303,cu_GRM,87300,"",3303,Jiguaní
+res_country_state_city_3304,cu_GRM,85100,"",3304,Bayamo
+res_country_state_city_3305,cu_GRM,87400,"",3305,Yara
+res_country_state_city_3306,cu_GRM,87510,"",3306,Manzanillo
+res_country_state_city_3307,cu_GRM,87600,"",3307,Campechuela
+res_country_state_city_3308,cu_GRM,87700,"",3308,Media Luna
+res_country_state_city_3309,cu_GRM,87800,"",3309,Niquero
+res_country_state_city_3310,cu_GRM,87900,"",3310,Pilón
+res_country_state_city_3311,cu_GRM,88000,"",3311,Bartolomé Masó
+res_country_state_city_3312,cu_GRM,88100,"",3312,Buey Arriba
+res_country_state_city_3313,cu_GRM,88200,"",3313,Guisa
+res_country_state_city_3501,cu_GTM,97100,"",3501,El Salvador
+res_country_state_city_3502,cu_GTM,97700,"",3502,Manuel Tames
+res_country_state_city_3503,cu_GTM,99420,"",3503,Yateras
+res_country_state_city_3504,cu_GTM,97310,"",3504,Baracoa
+res_country_state_city_3505,cu_GTM,99320,"",3505,Maisí
+res_country_state_city_3506,cu_GTM,97500,"",3506,Imías
+res_country_state_city_3507,cu_GTM,97600,"",3507,San Antonio del Sur
+res_country_state_city_3508,cu_GTM,97800,"",3508,Caimanera
+res_country_state_city_3509,cu_GTM,95100,"",3509,Guantánamo
+res_country_state_city_3510,cu_GTM,97900,"",3510,Niceto Pérez
+res_country_state_city_4001,cu_IJV,25100,25300,4001,Isla de la Juventud

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--Add 'multi company' a todos los usuarios del sistema-->
+    <record model="res.users" id="base.default_user">
+        <field name="groups_id" eval="[(4,ref('base.group_multi_company'))]"/>
+    </record>
+
+    <!--Add 'technical features' group to root and admins users.-->
+    <record model="res.groups" id="base.group_no_one">
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+    </record>
+</odoo>

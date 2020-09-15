@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--start: Generic Report  -->
+    <template id="generic_report_detail">
+        <t t-call="web.html_container">
+            <t t-set="data_report_margin_top" t-value="15"/>
+            <t t-set="data_report_header_spacing" t-value="10"/>
+            <t t-set="data_report_landscape" t-value="True"/>
+            <t t-set="full_width" t-value="True"/>
+
+            <t t-if="not o" t-set="o" t-value="doc"/>
+
+            <t t-if="not company">
+                <!-- Multicompany -->
+                <t t-if="company_id">
+                    <t t-set="company" t-value="company_id"/>
+                </t>
+                <t t-elif="o and 'company_id' in o">
+                    <t t-set="company" t-value="o.company_id.sudo()"/>
+                </t>
+                <t t-else="else">
+                    <t t-set="company" t-value="res_company"/>
+                </t>
+            </t>
+
+            <div class="header">
+                <div class="row">
+                    <div class="col-3">
+                        <span t-esc="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d %H:%M')"/>
+                    </div>
+                    <div class="col-2 offset-2 text-center">
+                        <span t-esc="company.name"/>
+                    </div>
+                    <div class="col-2 offset-3 text-right">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span class="page"/>
+                            </li>
+                            <li class="list-inline-item">/</li>
+                            <li class="list-inline-item">
+                                <span class="topage"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article" t-att-data-oe-model="o and o._name" t-att-data-oe-id="o and o.id"
+                 t-att-data-oe-lang="o and o.env.context.get('lang')">
+                <div class="page">
+                    <div class="row">
+                        <div class="col-12">
+                            <table>
+                                <tr>
+                                    <td style="width:100px;padding-right:10px;" class="text-right">
+                                        <b>Author</b>
+                                    </td>
+                                    <td>
+                                        <span t-esc="author"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:100px;padding-right:10px;" class="text-right">
+                                        <b>Filters</b>
+                                    </td>
+                                    <td>
+                                        <ul class="nav nav-pills" role="tablist">
+                                            <t t-foreach="format_filters" t-as="item">
+                                                <li role="presentation">
+                                                    <div>
+                                                        <span t-esc="item['string']"/>:
+                                                        <span t-esc="item['value']"/>
+                                                    </div>
+                                                </li>
+                                                <li role="presentation">,</li>
+                                            </t>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <br/>
+                    <table class="table table-condensed">
+                        <thead>
+                            <tr class="">
+                                <t t-foreach="fields_order" t-as="fName">
+                                    <th valign="center" align="left" class="" t-if="fName in fields">
+                                        <t t-esc="fields[fName]['string']"/>
+                                    </th>
+                                </t>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <t t-foreach="docs" t-as="item">
+                                <tr>
+                                    <t t-foreach="fields_order" t-as="fName">
+                                        <td valign="center" align="left" class="">
+                                            <t t-if="'__group' in item">
+                                                <t t-if="'group_by' in context and fName in context['group_by']">
+                                                    <span t-esc="item[fName]"/>
+                                                </t>
+                                            </t>
+                                            <t t-if="not '__group' in item">
+                                                <t t-if="not 'group_by' in context">
+                                                    <span t-esc="item[fName]"/>
+                                                </t>
+                                                <t t-if="'group_by' in context and not fName in context['group_by']">
+                                                    <span t-esc="item[fName]"/>
+                                                </t>
+                                            </t>
+                                        </td>
+                                    </t>
+                                </tr>
+                            </t>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </t>
+    </template>
+    <!--end: Main Invoice Report  -->
+</odoo>

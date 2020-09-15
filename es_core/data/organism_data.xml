@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="syap.organism" forcecreate="1" id="organism_1">
+            <field name="name">CIMEX</field>
+            <field name="code">CIMEX</field>
+            <field name="short">CIMEX</field>
+        </record>
+        <record model="syap.organism" forcecreate="1" id="organism_1">
+            <field name="name">Ministerio de Industrias</field>
+            <field name="code">MINDUS</field>
+            <field name="short">MINDUS</field>
+        </record>
+        <record model="syap.organism" forcecreate="1" id="organism_1">
+            <field name="name">Ministerio de la Industria Sidero Mecánica</field>
+            <field name="code">SIME</field>
+            <field name="short">SIME</field>
+        </record>
+    </data>
+</odoo>

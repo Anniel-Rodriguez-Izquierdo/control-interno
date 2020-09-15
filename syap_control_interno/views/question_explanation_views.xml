@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_tree_question_explanation">
+        <field name="name">syap.ic.question.explanation.tree</field>
+        <field name="model">syap.ic.question.explanation</field>
+        <field name="arch" type="xml">
+            <tree editable="top">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_question_explanation">
+        <field name="name">syap.ic.question.explanation.form</field>
+        <field name="model">syap.ic.question.explanation</field>
+        <field name="arch" type="xml">
+            <form string="Question Reason">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_view_tree_question_explanation">
+        <field name="name">Question Explanation</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">syap.ic.question.explanation</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new explanation that why some question are selected as 'NO'
+            </p>
+        </field>
+    </record>
+</odoo>

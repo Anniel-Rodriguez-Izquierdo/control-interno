@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="base.cu" model="res.country">
+            <field name="name">Cuba</field>
+            <field name="code">cu</field>
+            <field name="image" type="base64" file="base/static/img/country_flags/cu.png"/>
+            <field name="currency_id" ref="base.CUP"/>
+            <field name="phone_code" eval="53"/>
+            <field name="country_group_ids"/>
+        </record>
+    </data>
+</odoo>

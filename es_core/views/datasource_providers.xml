@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--sql provider group-->
+    <record model="ir.ui.view" id="sql_provider_group_tree">
+        <field name="name">es.sql.provider.group.tree</field>
+        <field name="model">es.sql.provider.group</field>
+        <field name="arch" type="xml">
+            <tree string="SQL Provider Group" editable="bottom">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_provider_group_form">
+        <field name="name">es.sql.provider.group.form</field>
+        <field name="model">es.sql.provider.group</field>
+        <field name="arch" type="xml">
+            <form string="SQL Provider Group">
+                <group>
+                    <field name="name"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sql_provider_group_tree">
+        <field name="name">SQL Provider Groups</field>
+        <field name="res_model">es.sql.provider.group</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sql_provider_group_tree"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to add a new external sql data source groups.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_external_sql_provider_group" parent="menu_external_sql_settings"
+              action="action_sql_provider_group_tree" sequence="2"/>
+
+    <!--sql provider-->
+    <record model="ir.ui.view" id="sql_provider_tree">
+        <field name="name">es.sql.provider.tree</field>
+        <field name="model">es.sql.provider</field>
+        <field name="arch" type="xml">
+            <tree string="SQL Provider"
+                  decoration-success="state=='connected'"
+                  decoration-danger="state=='disconnected'">
+                <field name="active"/>
+                <field name="company_id"/>
+                <field name="provider_group_id" required="True"/>
+                <field name="name"/>
+                <field name="host"/>
+                <field name="port"/>
+                <field name="database"/>
+                <field name="username"/>
+                <field name="password" password="True"/>
+                <field name="driver"/>
+                <field name="timeout"/>
+                <field name="pool_reset_after"/>
+                <field name="state"/>
+                <button name="action_test_connection" string="Test Connection" type="object"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_provider_search">
+        <field name="name">es.sql.provider.search</field>
+        <field name="model">es.sql.provider</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="active"/>
+                <field name="company_id"/>
+                <field name="provider_group_id"/>
+                <field name="name"/>
+                <field name="host"/>
+                <field name="port"/>
+                <field name="database"/>
+                <field name="username"/>
+                <field name="password" password="True"/>
+                <field name="driver"/>
+                <field name="timeout"/>
+                <field name="pool_reset_after"/>
+
+                <group expand="0" string="Group By">
+                    <filter string="Company" name="company" context="{'group_by':'company_id'}"/>
+                    <filter string="Group" name="provider_group" context="{'group_by':'provider_group_id'}"/>
+                    <filter string="Driver" name="driver" context="{'group_by':'driver'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_provider_form">
+        <field name="name">es.sql.provider.form</field>
+        <field name="model">es.sql.provider</field>
+        <field name="arch" type="xml">
+            <form string="SQL Provider">
+                <header>
+                    <button name="action_test_connection" string="Test Connection" type="object"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_active" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button" options='{"terminology": "archive"}'/>
+                        </button>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="company_id"/>
+                            <field name="provider_group_id" required="True"/>
+                            <field name="name"/>
+                            <field name="host"/>
+                            <field name="port"/>
+                            <field name="database"/>
+                        </group>
+                        <group>
+                            <field name="username"/>
+                            <field name="password" password="True"/>
+                            <field name="driver"/>
+                            <field name="timeout"/>
+                            <field name="pool_reset_after"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Helpers">
+                            <field name="helper_ids"/>
+                        </page>
+                    </notebook>
+
+                    <group string="Versat Detail">
+                        <group>
+                            <field name="unit_sql_id"/>
+                        </group>
+                        <group></group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sql_provider_tree">
+        <field name="name">SQL Providers</field>
+        <field name="res_model">es.sql.provider</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sql_provider_tree"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to add a new external sql data sources.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_external_sql_provider" parent="menu_external_sql_settings"
+              action="action_sql_provider_tree" sequence="4"/>
+
+    <!--sql query-->
+    <record model="ir.ui.view" id="sql_query_tree">
+        <field name="name">es.sql.query.tree</field>
+        <field name="model">es.sql.query</field>
+        <field name="arch" type="xml">
+            <tree string="SQL Query">
+                <field name="name"/>
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_query_search">
+        <field name="name">es.sql.query.search</field>
+        <field name="model">es.sql.query</field>
+        <field name="arch" type="xml">
+            <search string="SQL Query">
+                <field name="name"/>
+                <field name="description"/>
+
+                <filter string="Active" name="active" domain="[('active', '=',True)]"/>
+                <filter string="Inactive" name="inactive" domain="[('active', '=',False)]"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_query_form">
+        <field name="name">es.sql.query.form</field>
+        <field name="model">es.sql.query</field>
+        <field name="arch" type="xml">
+            <form string="SQL Query">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="toggle_active" type="object" class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button" options='{"terminology": "archive"}'/>
+                        </button>
+                    </div>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <notebook>
+                        <page string="Description">
+                            <field name="description"/>
+                        </page>
+                        <page string="Query">
+                            <p class="oe_grey">
+                                Note: Params in query must be added like this: %param_name%,
+                                and only accept Letter and _
+                                <br/>
+                                Please use prefix to infer param data type:
+                                <b>str_, int_, float_, bool_, date_, list_</b>
+                            </p>
+                            <field name="query"/>
+                        </page>
+                        <page string="Consolidable Fields">
+                            <group>
+                                <field name="unique_record_field"/>
+                            </group>
+                            <p class="oe_grey">
+                                This field help you to consolidate data over record with same value
+                                on "unique_record_field" after evaluate this query on different providers.
+                                Please put here the name of the one COLUMN of the query.
+                            </p>
+                            <field name="consolidable_field_ids"/>
+                        </page>
+                        <page string="SQL Helpers">
+                            <field name="helper_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sql_query_tree">
+        <field name="name">SQL Queries</field>
+        <field name="res_model">es.sql.query</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sql_query_tree"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to add a new external sql queries.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_external_sql_query" parent="menu_external_sql_settings"
+              action="action_sql_query_tree" sequence="6"/>
+
+    <!--sql query consolidable field-->
+    <record model="ir.ui.view" id="sql_query_consolidable_field_tree">
+        <field name="name">es.sql.query.consolidable.field.tree</field>
+        <field name="model">es.sql.query.consolidable.field</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name"/>
+                <field name="math_operation"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_query_consolidable_field_form">
+        <field name="name">es.sql.query.consolidable.field.form</field>
+        <field name="model">es.sql.query.consolidable.field</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="name"/>
+                    <field name="math_operation"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!--sql helper parameter-->
+    <record model="ir.ui.view" id="view_tree_sql_helper_parameter">
+        <field name="name">es.sql.helper.parameter.tree</field>
+        <field name="model">es.sql.helper.parameter</field>
+        <field name="arch" type="xml">
+            <tree create="0" delete="0">
+                <field name="type" invisible="1"/>
+
+                <field name="title"/>
+                <field name="name" groups="base.group_system"/>
+                <field name="sql_value"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_sql_helper_parameter">
+        <field name="name">es.sql.helper.parameter.tree</field>
+        <field name="model">es.sql.helper.parameter</field>
+        <field name="arch" type="xml">
+            <form create="0" delete="0">
+                <group>
+                    <field name="type" invisible="1"/>
+                    <field name="name" invisible="1"/>
+                    <field name="sql_value" invisible="1"/>
+
+                    <field name="title"/>
+
+                    <field name="value_str" attrs="{'invisible':[('type','not in',['str', 'list'])]}"/>
+                    <field name="value_int" attrs="{'invisible':[('type','!=','int')]}"/>
+                    <field name="value_float" attrs="{'invisible':[('type','!=','float')]}"/>
+                    <field name="value_bool" attrs="{'invisible':[('type','!=','bool')]}"/>
+                    <field name="value_date" attrs="{'invisible':[('type','!=','date')]}"/>
+                </group>
+                <group>
+                    <p class="oe_gray" attrs="{'invisible':[('type','!=','list')]}">
+                        Use this format for list fields: ej: [1, 2, 3, 4]
+                    </p>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!--sql helper-->
+    <record model="ir.ui.view" id="sql_helper_tree">
+        <field name="name">es.sql.helper.tree</field>
+        <field name="model">es.sql.helper</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="query_id"/>
+                <field name="query_return_type"/>
+                <field name="interval_number"/>
+                <field name="interval_type"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="sql_helper_form">
+        <field name="name">es.sql.helper.form</field>
+        <field name="model">es.sql.helper</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_execute" string="Run Manually" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="internal_code"/>
+                    </group>
+                    <notebook>
+                        <page string="General">
+                            <group>
+                                <field name="provider_ids">
+                                    <tree>
+                                        <field name="company_id"/>
+                                        <field name="name"/>
+                                    </tree>
+                                </field>
+                                <field name="query_id"/>
+                                <field name="query_parameter_ids"
+                                       attrs="{'invisible':[('query_parameter_ids','=',False)]}"/>
+                                <label for="query_return_type"/>
+                                <div>
+                                    <field name="query_return_type"/>
+                                    <p class="oe_grey oe_inline"
+                                       attrs="{'invisible':[('query_return_type','!=','consolidate')]}">
+                                        Note: If you wish get the data consolidated, then the results olny contain
+                                        the column consolidable, defined in the Query Form View.
+                                    </p>
+                                </div>
+                            </group>
+                            <group string="Scheduling">
+                                <field name="interval_type"/>
+                                <field name="interval_number" attrs="{'invisible':[('interval_type','=','manual')]}"/>
+                            </group>
+                        </page>
+                        <page string="Python Code">
+                            <field name="code" widget="ace" options="{'mode': 'python'}"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sql_helper_tree">
+        <field name="name">SQL Helpers</field>
+        <field name="res_model">es.sql.helper</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="view_id" ref="sql_helper_tree"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Click to add a new sql helper.
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_external_sql_helper" parent="menu_external_sql_settings"
+              action="action_sql_helper_tree" sequence="8"/>
+
+    <!--sql synchronize-->
+    <record model="ir.ui.view" id="sql_synchronize_form">
+        <field name="name">es.sql.synchronize.form</field>
+        <field name="model">es.sql.synchronize</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="query_parameter_ids"/>
+                <footer>
+                    <button name="action_execute_update" string="Run Manually" type="object"
+                            default_focus="1" class="oe_highlight"/>
+                    <button special="cancel" string="Cancel" class="btn-default"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_sql_synchronize_form">
+        <field name="name">SQL Synchronize</field>
+        <field name="res_model">es.sql.synchronize</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="sql_synchronize_form"/>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_action_sql_synchronize_form" parent="menu_external_sql_settings"
+              action="action_sql_synchronize_form" sequence="10"/>
+</odoo>

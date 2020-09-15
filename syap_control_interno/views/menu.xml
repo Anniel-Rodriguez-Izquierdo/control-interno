@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem
+            id="menu_syap_control_interno_root"
+            name="Internal Control"
+            web_icon="syap_control_interno,static/description/icon-internal-control.png"/>
+
+    <menuitem id="menu_action_view_tree_entities" parent="menu_syap_control_interno_root"
+              action="action_view_tree_entities" sequence="5"/>
+
+        <menuitem id="menu_action_view_tree_guide_to_resolve" parent="menu_syap_control_interno_root"
+              action="action_view_tree_guide_to_resolve" sequence="10"/>
+
+    <!--settings-->
+    <menuitem id="menu_control_interno_settings" name="Settings" parent="menu_syap_control_interno_root"
+              sequence="100"/>
+        <menuitem id="menu_action_view_tree_guide_templates" parent="menu_control_interno_settings"
+                  action="action_view_tree_guide_templates" sequence="0"/>
+        <menuitem id="menu_control_interno_settings_nomenclature" parent="menu_control_interno_settings"
+                  name="Nomenclatures" sequence="5"/>
+            <menuitem id="menu_action_view_tree_component" parent="menu_control_interno_settings_nomenclature"
+                      action="action_view_tree_component" sequence="5"/>
+            <menuitem id="menu_action_view_tree_area_of_interest" parent="menu_control_interno_settings_nomenclature"
+                      action="action_view_tree_area_of_interest" sequence="10"/>
+            <menuitem id="menu_action_view_tree_topic" parent="menu_control_interno_settings_nomenclature"
+                      action="action_view_tree_topic" sequence="15"/>
+            <menuitem id="menu_action_view_tree_question_explanation" parent="menu_control_interno_settings_nomenclature"
+                      action="action_view_tree_question_explanation" sequence="20"/>
+
+</odoo>

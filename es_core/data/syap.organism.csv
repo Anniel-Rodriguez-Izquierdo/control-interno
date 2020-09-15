@@ -1,0 +1,95 @@
+id,code,name,short,active
+syap_organism_100,100,CIMEX,CIMEX,False
+syap_organism_102,102,Ministerio de Industrias,MINDUS,True
+syap_organism_103,103,Ministerio de la Industria Sidero Mecánica,SIME,False
+syap_organism_104,104,Ministerio de Energía y Minas,MINEM,True
+syap_organism_105,105,Ministerio de la Industria Básica,MINBAS,False
+syap_organism_107,107,Ministerio de la Industria Ligera,MINIL,False
+syap_organism_108,108,Ministerio del Azúcar,MINAZ,False
+syap_organism_109,109,Ministerio de la Industria Pesquera,MIP,False
+syap_organism_110,110,Ministerio de la Industria Alimenticia,MINAL,False
+syap_organism_111,111,Ministerio de la Industria Alimentaria,MINAL,True
+syap_organism_113,113,Instituto Nacional de Recursos Hidráulicos,INRH,True
+syap_organism_126,126,Ministerio de la Construcción,MICONS,True
+syap_organism_131,131,Ministerio de la Agricultura,MINAG,True
+syap_organism_151,151,Ministerio del Transporte,MITRANS,True
+syap_organism_152,152,Instituto de la Aeronáutica Civil de Cuba,IACC,False
+syap_organism_153,153,Instituto Nacional de Reservas Estatales,INRE,False
+syap_organism_161,161,Ministerio de Comunicaciones,MINCOM,True
+syap_organism_171,171,Ministerio del  Comercio Interior,MINCIN,True
+syap_organism_173,173,Ministerio del Comercio Exterior,MINCEX,False
+syap_organism_174,174,Ministerio del Comercio Exterior y la Inversión Extranjera,MINCEX,True
+syap_organism_177,177,CEATM Nivel Central,CEATMNC,False
+syap_organism_191,191,INSAC Nivel Central,INSACNC,False
+syap_organism_201,201,INTUR Nivel Central,INTURNC,False
+syap_organism_211,211,"Ministerio de Ciencia,Tecnología y Medio Ambiente",CITMA,True
+syap_organism_221,221,Ministerio de Educación,MINED,True
+syap_organism_223,223,Ministerio de Educación Superior,MES,True
+syap_organism_233,233,Instituto Cubano de Radio y Televisión,ICRT,True
+syap_organism_234,234,Ministerio de  Cultura,MINCULT,True
+syap_organism_241,241,Ministerio de Salud Publica,MINSAP,True
+syap_organism_242,242,"Instituto Nacional de Deportes, Educación Física y Recreación",INDER,True
+syap_organism_249,249,Contraloría General de la República,CGR,True
+syap_organism_250,250,Ministerio de Auditoría y Control,MAC,False
+syap_organism_251,251,Banco Nacional de Cuba,BNC,True
+syap_organism_252,252,Comité Estatal de Finanzas Nivel Central,CEFNC,False
+syap_organism_253,253,Banco Popular de Ahorro,BPA,True
+syap_organism_254,254,Ministerio de Finanzas y Precios,MFP,True
+syap_organism_255,255,Ministerio para la Inversión Extranjera  y la  Colaboración Económica,MINVEC,False
+syap_organism_256,256,Ministerio del Turismo,MINTUR,True
+syap_organism_257,257,Banco Central de Cuba,BCC,True
+syap_organism_258,258,Banco de Crédito y Comercio,BANDEC,True
+syap_organism_259,259,Banco Exterior de Cuba,BEC,True
+syap_organism_261,261,Ministerio de Economía y Planificación,MEP,True
+syap_organism_262,262,Ministerio de Trabajo y Seguridad Social,MTSS,True
+syap_organism_263,263,Ministerio de Justicia,MINJUS,True
+syap_organism_264,264,Ministerio de Relaciones Exteriores,MINREX,True
+syap_organism_265,265,Instituto de la Demanda Interna,IDI,False
+syap_organism_266,266,CECE Nivel Central,CECENC,False
+syap_organism_267,267,Tribunal Supremo Popular,TSP,True
+syap_organism_268,268,Fiscalía General de la República,FGR,True
+syap_organism_269,269,Comité Estatal de Precios Nivel Central,CEPNC,False
+syap_organism_271,271,Ministerio de las Fuerzas Armadas Revolucionarias,MINFAR,True
+syap_organism_272,272,Ministerio del Interior,MININT,True
+syap_organism_278,278,Oficina Nacional de Diseño,ONDI,False
+syap_organism_281,281,Secretaría Ejecutiva para Asuntos Nucleares,SEAN,False
+syap_organism_283,283,Instituto Cubano de Hidrografía,ICH,False
+syap_organism_284,284,Instituto Nacional de Geodesia y Cartografía,INGC,False
+syap_organism_300,300,Consejo de Estado,CE,True
+syap_organism_301,301,Poder Popular Nacional - Asamblea Nacional,ANPP,True
+syap_organism_302,302,Comité Ejecutivo del Consejo de Ministros,CECM,True
+syap_organism_304,304,Aduana General de la República Nivel Central,AGR,True
+syap_organism_305,305,Consejo de Ministros,CM,True
+syap_organism_306,306,Oficina del Historiador de la Ciudad de la Habana,OHCH,True
+syap_organism_311,311,Poder Popular de Pinar del Rio,PPPR,True
+syap_organism_312,312,Poder Popular de La Habana,PPHB,False
+syap_organism_313,313,Poder Popular de La Habana,PPLH,True
+syap_organism_314,314,Poder Popular de Matanzas,PPMT,True
+syap_organism_315,315,Poder Popular de Villa Clara,PPVC,True
+syap_organism_316,316,Poder Popular de Cienfuegos,PPCF,True
+syap_organism_317,317,Poder Popular de Sancti Spíritus,PPSS,True
+syap_organism_318,318,Poder Popular de Ciego de Ávila,PPCA,True
+syap_organism_319,319,Poder Popular de Camagüey,PPCM,True
+syap_organism_320,320,Poder Popular de Las Tunas,PPLT,True
+syap_organism_321,321,Poder Popular de Holguín,PPHG,True
+syap_organism_322,322,Poder Popular de Granma,PPGR,True
+syap_organism_323,323,Poder Popular de Santiago de Cuba,PPSC,True
+syap_organism_324,324,Poder Popular de Guantánamo,PPGT,True
+syap_organism_325,325,Poder Popular de Isla de la Juventud,PPIJ,True
+syap_organism_326,326,Poder Popular de Artemisa,PPAR,True
+syap_organism_327,327,Poder Popular de Mayabeque,PPMY,True
+syap_organism_501,501,Partido Comunista de Cuba,PCC,True
+syap_organism_502,502,Unión de Jóvenes Comunistas,UJC,True
+syap_organism_503,503,Organización de Pioneros José Marti,OPJM,True
+syap_organism_504,504,Central de Trabajadores de Cuba,CTC,True
+syap_organism_505,505,Federación de Mujeres Cubanas,FMC,True
+syap_organism_506,506,Comité de Defensa de la Revolución,CDR,True
+syap_organism_507,507,Asociación Nacional de Agricultores Pequeños,ANAP,True
+syap_organism_658,658,Grupo Azucarero,AZCUBA,True
+syap_organism_692,692,Grupo de las Industrias Biotecnológica y Farmacéutica,BIOCUBAFARMA,True
+syap_organism_700,700,Ggrupo Empresarial CENTRO HISTORICO,GPO CTROHIST,True
+syap_organism_934,934,Sociedad de Educación Patriótico Militar,SEPMI,False
+syap_organism_936,936,Plan de Desarrollo Turístico Norte Sur zona Oriental,PDTNSO,False
+syap_organism_937,937,Metro de Ciudad de La Habana,MCH,False
+syap_organism_998,998,No se subordina a un Organismo,NOSUBORDINAD,True
+syap_organism_999,999,Organismo Desconocido,DESCONOCIDO,True

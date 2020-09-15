@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_tree_city">
+        <field name="name">res.country.state.city.tree</field>
+        <field name="model">res.country.state.city</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="zip"/>
+                <field name="other_zip"/>
+                <field name="state_id"/>
+                <field name="country_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_search_city">
+        <field name="name">res.country.state.city.search</field>
+        <field name="model">res.country.state.city</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" filter_domain="[('name','ilike',self)]" string="Name"/>
+                <field name="state_id"/>
+                <field name="code" filter_domain="[('code','ilike',self)]" string="Code"/>
+                <field name="zip" filter_domain="[('zip','ilike',self)]" string="Zip"/>
+                <field name="other_zip" filter_domain="[('other_zip','ilike',self)]" string="Second Zip"/>
+            </search>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_city">
+        <field name="name">res.country.state.city.form</field>
+        <field name="model">res.country.state.city</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field name="name"/>
+                        <field name="state_id"/>
+                    </group>
+                    <group>
+                        <field name="code"/>
+                        <field name="zip"/>
+                        <field name="other_zip"/>
+                    </group>
+                </group>
+
+            </form>
+        </field>
+    </record>
+</odoo>

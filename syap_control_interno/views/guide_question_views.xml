@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- question -->
+    <record model="ir.ui.view" id="view_tree_guide_question">
+        <field name="name">syap.ic.guide.question.tree</field>
+        <field name="model">syap.ic.guide.question</field>
+        <field name="arch" type="xml">
+            <tree decoration-danger="company_origin==company_owner">
+                <field name="sequence" widget="handle"/>
+                <field name="component_id"/>
+                <field name="aoi_id"/>
+                <field name="topic_id"/>
+                <field name="name"/>
+
+                <field name="company_origin" invisible="1"/>
+                <field name="company_owner" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_guide_question">
+        <field name="name">syap.ic.guide.question.form</field>
+        <field name="model">syap.ic.guide.question</field>
+        <field name="arch" type="xml">
+            <form string="Question">
+                <sheet>
+                    <p class="oe_grey">
+                        NOTE: If you do not select an <b>COMPONENT</b> then this
+                        <b>QUESTION</b>
+                        will be apply to all
+                        <b>COMPONENTS</b>
+                    </p>
+                    <group>
+                        <field name="company_origin" invisible="1"/>
+                        <field name="company_owner" invisible="1"/>
+                        <field name="sequence"/>
+                        <field name="component_id"/>
+                        <field name="aoi_id"/>
+                        <field name="topic_id"/>
+                        <field name="name"/>
+                    </group>
+                    <group string="Subsections">
+                        <field name="line_ids" nolabel="1"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- question line -->
+    <record model="ir.ui.view" id="view_tree_guide_question_line">
+        <field name="name">syap.ic.guide.question.line.tree</field>
+        <field name="model">syap.ic.guide.question.line</field>
+        <field name="arch" type="xml">
+            <tree decoration-danger="company_origin==company_owner">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+
+                <field name="company_origin" invisible="1"/>
+                <field name="company_owner" invisible="1"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_guide_question_line">
+        <field name="name">syap.ic.guide.question.line.form</field>
+        <field name="model">syap.ic.guide.question.line</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="sequence"/>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

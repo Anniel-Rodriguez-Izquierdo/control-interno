@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="ExportView.export_button">
+        <button t-if='widget and widget.exportEnabled' type="button" class="btn btn-secondary o_button_export">
+            Export
+        </button>
+    </t>
+    <t t-extend="ListView.buttons">
+        <t t-jquery="div.o_list_buttons" t-operation="append">
+           <t t-call="ExportView.export_button"/>
+        </t>
+    </t>
+    <t t-extend="KanbanView.buttons">
+        <t t-jquery="button" t-operation="after">
+            <t t-call="ExportView.export_button"/>
+        </t>
+    </t>
+
+    <t t-name="ExportView">
+        <div class="modal-body">
+            <div class="container">
+                <div class="row">
+                    <label class="col-3 text-right">File name</label>
+                    <div class="col-9">
+                        <input id="file_name" type="text" class="form-control" t-att-value="file_name"/>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <label class="col-3 text-right">Results</label>
+                    <div class="col-9">
+                        <div class="radio i-checks">
+                            <input type="radio" value="all_items" name="result_type" checked="checked"/> All results
+                        </div>
+                        <div class="radio i-checks">
+                            <input type="radio" value="only_items_visible" name="result_type"/> Only visible results
+                        </div>
+                        <div class="radio i-checks">
+                            <input type="radio" value="only_items_selected" name="result_type"/> Only selected
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <label class="col-3 text-right">Export to</label>
+                    <div class="col-9">
+                        <div class="radio i-checks">
+                            <input type="radio" value="pdf" name="file_type" checked="checked"/> PDF
+                        </div>
+                        <div class="radio i-checks">
+                            <input type="radio" value="excel" name="file_type"/> EXCEL
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>

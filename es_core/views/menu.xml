@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--Menu /Link Tracker ..........................................................................................-->
+    <record model="ir.ui.menu" id="utm.menu_link_tracker_root">
+        <field name="active" eval="0"/>
+    </record>
+
+    <!--Menu / Discuss ..............................................................................................-->
+    <record model="ir.ui.menu" id="mail.menu_root_discuss">
+        <field name="active" eval="0"/>
+    </record>
+
+    <!-- External SQL Connections................................................................................... -->
+    <menuitem id="menu_external_sql_settings" parent="base.menu_administration"
+              name="Data Sources" sequence="95"/>
+</odoo>

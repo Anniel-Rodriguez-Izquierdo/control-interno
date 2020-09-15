@@ -1,0 +1,2480 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* es_core
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-20 18:35+0000\n"
+"PO-Revision-Date: 2019-08-20 16:40-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "# Available variables:\n"
+"#  - env: Odoo Environment on which the action is triggered\n"
+"#  - time, datetime, dateutil, timezone: useful Python libraries\n"
+"#  - base64enconde, base64deconde: useful Python libraries\n"
+"#  - query_result: useful to process data and generate other. \n"
+"#           Format: {\n"
+"#                      'provider ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                      'provider ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                   }\n"
+"#  - helper_result: useful to process data and generate other.\n"
+"#           Format: {\n"
+"#                      'helper_ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                      'helper_ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                   }\n"
+"\n"
+"\n"
+"\n"
+"\n"
+""
+msgstr "# Variable disponibles:\n"
+"#  - env: Entorno de Odoo Environment para la ejecución de las acciones\n"
+"#  - time, datetime, dateutil, timezone: Librerías útiles de Python\n"
+"#  - base64enconde, base64deconde: Librerías útiles de Python\n"
+"#  - query_result: Útil para procesar datos y generar otros. \n"
+"#           Formato: {\n"
+"#                      'provider ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                      'provider ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                   }\n"
+"#  - helper_result: Útil para procesar datos y generar otros.\n"
+"#           Formato: {\n"
+"#                      'helper_ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                      'helper_ID': [('Col 1', 'Col 2', 'Col 3')...]\n"
+"#                   }\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"Por favor corrija los errores e intentelo nuevamente"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/dashboard/dashboard_controller.js:0
+#, python-format
+msgid "%s Analysis"
+msgstr "%s Análisis"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:0
+#, python-format
+msgid "(ERP Station Edition)"
+msgstr "(ERP Station Edition)"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_cohort.xml:76
+#: code:addons/es_core/static/src/xml/web_cohort.xml:154
+#, python-format
+msgid "- By"
+msgstr "- Por"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "10"
+msgstr "10"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "15"
+msgstr "15"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "20"
+msgstr "20"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "25"
+msgstr "25"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "30"
+msgstr "30"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "35"
+msgstr "35"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "40"
+msgstr "40"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "45"
+msgstr "45"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "50"
+msgstr "50"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "55"
+msgstr "55"
+
+#. module: es_core
+#: selection:es.sql.provider,pool_reset_after:0
+msgid "60"
+msgstr "60"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_res_groups
+msgid "Access Groups"
+msgstr "Grupos de acceso"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Action"
+msgstr "Acción"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "Acción de Vista"
+
+#. module: es_core
+#: code:addons/es_core/models/session.py:26
+#: code:addons/es_core/models/session.py:41
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__active
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__active
+#: model:ir.model.fields,field_description:es_core.field_res_groups__active
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_search
+#, python-format
+msgid "Active"
+msgstr "Activo"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_search_session
+msgid "Active Sessions"
+msgstr "Sessiones Activas"
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0 selection:ir.ui.view,type:0
+msgid "Activity"
+msgstr "Actividad"
+
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/systray_alert.xml:0
+#, python-format
+msgid "Alert"
+msgstr "Alerta"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/systray_alert.xml:0
+#, python-format
+msgid "Alerts"
+msgstr "Alertas"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:0
+#, python-format
+msgid "All results"
+msgstr "Todos los resultados"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.res_config_settings_view_form
+msgid "Allow use another payments type for your employees"
+msgstr "Permite usar otras formas de pago con tus empleados"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:195
+#: selection:es.session.address,permission:0
+#, python-format
+msgid "Allowed"
+msgstr "Permitido"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:0
+#: code:addons/es_core/static/src/xml/base.xml:0
+#, python-format
+msgid "Alt"
+msgstr "Alt"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:56
+#, python-format
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "April"
+msgstr "Abril"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "August"
+msgstr "Agosto"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.generic_report_detail
+msgid "Author"
+msgstr "Autor"
+
+#. module: es_core
+#: code:addons/es_core/scripts/excel_builder.py:0
+#, python-format
+msgid "Author:"
+msgstr "Autor:"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/controllers/main.py:236
+#: code:addons/es_core/static/src/xml/web_cohort.xml:112
+#: code:addons/es_core/static/src/xml/web_cohort.xml:184
+#: selection:es.sql.query.consolidable.field,math_operation:0
+#, python-format
+msgid "Average"
+msgstr "Promedio"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_base
+msgid "Base"
+msgstr "Base"
+
+#. module: es_core
+#: code:addons/es_core/models/datasource_providers.py:0
+#: selection:es.sql.helper.parameter,type:0
+#, python-format
+msgid "Boolean"
+msgstr "Boleano"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "COMPANIES"
+msgstr "Compañías"
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0
+#: selection:ir.ui.view,type:0
+msgid "Calendar"
+msgstr "Calendario"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_synchronize_form
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_company__city
+#: model:ir.model.fields,field_description:es_core.field_res_partner__city
+#: model:ir.model.fields,field_description:es_core.field_res_users__city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: es_core
+#: model_terms:ir.actions.act_window,help:es_core.action_sql_provider_group_tree
+msgid "Click to add a new external sql data source groups."
+msgstr "Click para agregar un nuevo Grupo de Fuentes de Datos SQL externa."
+
+#. module: es_core
+#: model_terms:ir.actions.act_window,help:es_core.action_sql_provider_tree
+msgid "Click to add a new external sql data sources."
+msgstr "Click para agregar una nueva Fuente de Datos SQL externa ."
+
+#. module: es_core
+#: model_terms:ir.actions.act_window,help:es_core.action_sql_query_tree
+msgid "Click to add a new external sql queries."
+msgstr "Click para agregar una nueva Consulta SQL."
+
+#. module: es_core
+#: model_terms:ir.actions.act_window,help:es_core.action_tree_migration_mapping
+msgid "Click to add a new mapping."
+msgstr "Click para agregar un nuevo mapeo."
+
+#. module: es_core
+#: model_terms:ir.actions.act_window,help:es_core.action_sql_helper_tree
+msgid "Click to add a new sql helper."
+msgstr "Click para agregar un nuevo Asistente SQL."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/services/report_service.js:0
+#, python-format
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_form_session
+msgid "Close Session"
+msgstr "Cerrar Sesión"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Close menu"
+msgstr "Cerrar menu"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_search_session
+msgid "Closed Sessions"
+msgstr "Cerrar Sesiones"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__code
+msgid "Code"
+msgstr "Código"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:22
+#: selection:ir.actions.act_window.view,view_mode:0 selection:ir.ui.view,type:0
+#, python-format
+msgid "Cohort"
+msgstr "Cohort"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:42
+#, python-format
+msgid "Cohort view has not defined \"date_start\" attribute."
+msgstr "La vista Cohort no tiene definido el atributo \"fecha de inicio\"."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:45
+#, python-format
+msgid "Cohort view has not defined \"date_stop\" attribute."
+msgstr "La vista Cohort no tiene definido el atributo \"fecha de fin\"."
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "Column '%s' not found in query"
+msgstr "La columna '%s' no se encuentra en la Consulta"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Column:"
+msgstr "Columna:"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__company_id
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_search
+msgid "Company"
+msgstr "Compañía"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.res_config_settings_view_form
+msgid "Company in Improvement"
+msgstr "Empresa en Perfeccionamiento"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base_mobile.xml:0
+#, python-format
+msgid "Company menu"
+msgstr "Compañía"
+
+#. module: es_core
+#: code:addons/es_core/scripts/excel_builder.py:0
+#, python-format
+msgid "Company:"
+msgstr "Compañía:"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_partner__contact_address_clean
+#: model:ir.model.fields,field_description:es_core.field_res_users__contact_address_clean
+msgid "Complete Clean Address"
+msgstr "Dirección Completa"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: es_core
+#: selection:es.sql.provider,state:0
+msgid "Connected"
+msgstr "Conectado"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "Connection broken"
+msgstr "Conexión Perdida"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "Connection successful"
+msgstr "Conexión Establecida"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__consolidable_field_ids
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+msgid "Consolidable Fields"
+msgstr "Campos consolidables"
+
+#. module: es_core
+#: selection:es.sql.helper,query_return_type:0
+msgid "Consolidate"
+msgstr "Consolidar"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:0
+#, python-format
+msgid "Control"
+msgstr "Control"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_controller.js:96
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:63
+#: code:addons/es_core/static/src/xml/web_cohort.xml:17
+#, python-format
+msgid "Count"
+msgstr "Cantidad"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_res_country
+#: model:ir.model.fields,field_description:es_core.field_res_partner__country_id
+#: model:ir.model.fields,field_description:es_core.field_res_users__country_id
+msgid "Country"
+msgstr "País"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__create_uid
+#: model:ir.model.fields,field_description:es_core.field_es_tip__create_uid
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__create_uid
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__create_uid
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__create_date
+#: model:ir.model.fields,field_description:es_core.field_es_tip__create_date
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__create_date
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__create_date
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "Critic"
+msgstr "Crítico"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/dashboard/dashboard_view.js:0
+#: selection:ir.actions.act_window.view,view_mode:0
+#: selection:ir.ui.view,type:0
+#, python-format
+msgid "Dashboard"
+msgstr "Tablero"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__database
+msgid "Database"
+msgstr "Base de datos"
+
+#. module: es_core
+#: code:addons/es_core/models/datasource_providers.py:0
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: es_core
+#: code:addons/es_core/scripts/excel_builder.py:0
+#, python-format
+msgid "Date:"
+msgstr "Fecha:"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:15
+#: code:addons/es_core/static/src/xml/web_gantt.xml:0
+#: code:addons/es_core/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Day"
+msgstr "Día"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#: selection:es.sql.helper,interval_type:0
+#, python-format
+msgid "Days"
+msgstr "Días"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "December"
+msgstr "Diciembre"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__delimiter
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "Delimiter"
+msgstr "Delimitar"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:196
+#: selection:es.session.address,permission:0
+#, python-format
+msgid "Denied"
+msgstr "Denegado"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__description
+#: model:ir.model.fields,field_description:es_core.field_es_tip__description
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_base_ticket__detail
+msgid "Detail"
+msgstr "Detalle"
+
+#. module: es_core
+#: selection:ir.ui.view,type:0
+msgid "Diagram"
+msgstr "Diagrama"
+
+#. module: es_core
+#: selection:es.sql.provider,state:0
+msgid "Disconnected"
+msgstr "Desconectado"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_base_ticket__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__display_name
+#: model:ir.model.fields,field_description:es_core.field_es_tip__display_name
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__display_name
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__display_name
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: es_core
+#: selection:es.sql.query.consolidable.field,math_operation:0
+msgid "Div"
+msgstr "Div"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Domain Label:"
+msgstr "Dominio:"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Domain:"
+msgstr "Dominio:"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_cohort.xml:36
+#, python-format
+msgid "Download in Excel file"
+msgstr "Descargar en excel"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__driver
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_search
+msgid "Driver"
+msgstr "Controlador"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_gantt.xml:0
+#, python-format
+msgid "Dropdown menu"
+msgstr "Menu"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:220
+#, python-format
+msgid "Dump"
+msgstr "Salva"
+
+#. module: es_core
+#: model:ir.actions.server,name:es_core.cron_clean_external_sql_connections_ir_actions_server
+#: model:ir.cron,cron_name:es_core.cron_clean_external_sql_connections
+#: model:ir.cron,name:es_core.cron_clean_external_sql_connections
+msgid "ES Core: Clean External SQL Connections"
+msgstr "ES Core: Limpiar las conexiones sql externas"
+
+#. module: es_core
+#: model:ir.actions.server,name:es_core.cron_clean_sessions_ir_actions_server
+#: model:ir.cron,cron_name:es_core.cron_clean_sessions
+#: model:ir.cron,name:es_core.cron_clean_sessions
+msgid "ES Core: Clean Sessions"
+msgstr "ES Core: Limpiar las sesiones"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:0
+#, python-format
+msgid "EXCEL"
+msgstr "Excel"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__encoding
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "Encoding"
+msgstr "Codificación"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/services/report_service.js:0
+#: code:addons/es_core/static/src/xml/exportable_views.xml:0
+#, python-format
+msgid "Export"
+msgstr "Exportar"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:0
+#, python-format
+msgid "Export to"
+msgstr "Exportar"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/services/report_service.js:0
+#, python-format
+msgid "Export: "
+msgstr "Exportar: "
+
+#. module: es_core
+#: model:ir.ui.menu,name:es_core.menu_migration_exporting
+msgid "Exporting"
+msgstr "Exportando"
+
+#. module: es_core
+#: model:ir.ui.menu,name:es_core.menu_external_sql_settings
+msgid "External SQL Settings"
+msgstr "Ajustes de SQL Externos"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "FTP"
+msgstr "FTP"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "February"
+msgstr "Febrero"
+
+#. module: es_core
+#: selection:es.sql.helper.parameter,type:0
+msgid "Fecha"
+msgstr "Fecha"
+
+#. module: es_core
+#: code:addons/es_core/models/tips.py:51
+#, python-format
+msgid "Field \"cxt_model\" is mandatory if tip is not GLOBAL"
+msgstr "El campo \"cxt_model\" es obligatorio SI \"tip\" no es global"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:0
+#, python-format
+msgid "Field \"ticket_details\" only accept \"=, !=\" operator"
+msgstr "El campo \"ticket_details\" solo acepta los operadores =, !="
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__name
+msgid "Field Name"
+msgstr "Nombre de campo"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:0
+#, python-format
+msgid "Field:"
+msgstr "Campo:"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:95
+#: model:ir.model,name:es_core.model_ir_model_fields
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping__item_ids
+#, python-format
+msgid "Fields"
+msgstr "Campos"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:31
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__file
+#, python-format
+msgid "File"
+msgstr "Archivo"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:63
+#, python-format
+msgid "File %s"
+msgstr "Fichero %s"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:45
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__file_column_name
+#, python-format
+msgid "File Column"
+msgstr "Columna del Fichero"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:224
+#, python-format
+msgid "File System"
+msgstr "Sistema de Fichero"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:0
+#, python-format
+msgid "File name"
+msgstr "Nombre del Fichero"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:43
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__item_ids
+#, python-format
+msgid "Files"
+msgstr "Ficheros"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.generic_report_detail
+msgid "Filters"
+msgstr "Filtros"
+
+#. module: es_core
+#: code:addons/es_core/scripts/excel_builder.py:0
+#, python-format
+msgid "Filters:"
+msgstr "Filtros:"
+
+#. module: es_core
+#: code:addons/es_core/models/datasource_providers.py:0
+#: selection:es.sql.helper.parameter,type:0
+#, python-format
+msgid "Float"
+msgstr "Número Flotante"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_migration_mapping_item__model_field_relation
+msgid "For relationship fields, the technical name of the target model"
+msgstr "Para campos de relación, el nombre técnico del modelo destino"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_sql_provider__host
+msgid "For sqlite put here the file path"
+msgstr "Para SQLITE poner aquí la dirección del fichero"
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0
+#: selection:ir.ui.view,type:0
+msgid "Form"
+msgstr "Formulario"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:207
+#: selection:es.session,login_type:0
+#, python-format
+msgid "From web"
+msgstr "Desde la web"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/gantt/gantt_view.js:0
+#: code:addons/es_core/static/src/js/views/gantt/gantt_view.js:0
+#: selection:ir.actions.act_window.view,view_mode:0
+#: selection:ir.ui.view,type:0
+#, python-format
+msgid "Gantt"
+msgstr "Gantt"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/gantt/gantt_renderer.js:0
+#, python-format
+msgid "Gantt View"
+msgstr "Gantt"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_helper_form
+msgid "General"
+msgstr "General"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip___global
+msgid "Global"
+msgstr "Global"
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0 selection:ir.ui.view,type:0
+msgid "Graph"
+msgstr "Gráfico"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_search
+msgid "Group"
+msgstr "Grupo"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_search
+#: model_terms:ir.ui.view,arch_db:es_core.view_search_session
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:44
+#, python-format
+msgid "Group Operator:"
+msgstr "Operador de Grupo:"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_ir_http
+msgid "HTTP Routing"
+msgstr "Ruta HTTP"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:60
+#, python-format
+msgid "Help:"
+msgstr "Ayuda:"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__helper_id
+msgid "Helper"
+msgstr "Asistente"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:131
+#, python-format
+msgid "High"
+msgstr "Alto"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__host
+msgid "Host"
+msgstr "Ordenador"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_base_ticket__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__id
+#: model:ir.model.fields,field_description:es_core.field_es_tip__id
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__id
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__id
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__id
+msgid "ID"
+msgstr "ID"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_wizard_wizard_import
+#: model:ir.ui.menu,name:es_core.menu_wizard_wizard_import
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "Import"
+msgstr "Importar"
+
+#. module: es_core
+#: model:res.groups,name:es_core.group_migration_importer
+msgid "Importer"
+msgstr "Importador"
+
+#. module: es_core
+#: model:ir.ui.menu,name:es_core.menu_migration_importing
+msgid "Importing"
+msgstr "Importando"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_config_settings__in_improvement
+msgid "In improvement"
+msgstr "En perfeccionamiento"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_search
+msgid "Inactive"
+msgstr "Inactivo"
+
+#. module: es_core
+#: code:addons/es_core/models/datasource_providers.py:240
+#: selection:es.sql.helper.parameter,type:0
+#, python-format
+msgid "Integer"
+msgstr "Entero"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:229
+#, python-format
+msgid "Internal Error"
+msgstr "Error Interno"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__interval_number
+msgid "Interval Number"
+msgstr "Número de intervalos"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__interval_type
+msgid "Interval Unit"
+msgstr "Unidad de intervalo"
+
+#. module: es_core
+#: code:addons/es_core/models/models.py:576
+#, python-format
+msgid "It is urgent"
+msgstr "Urgente"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:171
+#, python-format
+msgid "January"
+msgstr "Enero"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:177
+#, python-format
+msgid "July"
+msgstr "Julio"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:176
+#, python-format
+msgid "June"
+msgstr "Junio"
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0 selection:ir.ui.view,type:0
+msgid "Kanban"
+msgstr "Kanban"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_base_ticket____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize____last_update
+#: model:ir.model.fields,field_description:es_core.field_es_tip____last_update
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city____last_update
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import____last_update
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__write_uid
+#: model:ir.model.fields,field_description:es_core.field_es_tip__write_uid
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__write_uid
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__write_uid
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__write_date
+#: model:ir.model.fields,field_description:es_core.field_es_tip__write_date
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__write_date
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__write_date
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:50
+#, python-format
+msgid "Logo"
+msgstr "Logo"
+
+#. module: es_core
+#: selection:es.sql.query.consolidable.field,math_operation:0
+msgid "Man"
+msgstr "Hombre"
+
+#. module: es_core
+#: model:res.groups,name:es_core.group_migration_manager
+msgid "Manager"
+msgstr "Administrador"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:44
+#: code:addons/es_core/wizard/wizard_create_importer.py:32
+#: code:addons/es_core/wizard/wizard_create_importer.py:107
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__mapping_id
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__mapping_id
+#: model:ir.ui.menu,name:es_core.menu_migration_mapping
+#, python-format
+msgid "Mapping"
+msgstr "Mapeo"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_tree_migration_mapping
+#: model:ir.ui.menu,name:es_core.menu_tree_migration_mapping
+msgid "Mappings"
+msgstr "Mapeos"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:173
+#, python-format
+msgid "March"
+msgstr "Marzo"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:147
+#, python-format
+msgid "Match"
+msgstr "Coincidir"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__math_operation
+msgid "Math Operation"
+msgstr "Operación Matemática"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:175
+#, python-format
+msgid "May"
+msgstr "Mayo"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_cohort.xml:6
+#, python-format
+msgid "Measures"
+msgstr "Medidas"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base_mobile.xml:30
+#, python-format
+msgid "Menu"
+msgstr "Menu"
+
+#. module: es_core
+#: model:ir.module.category,name:es_core.category_migration
+#: model:ir.ui.menu,name:es_core.menu_migration_root
+msgid "Migration"
+msgstr "Migración"
+
+#. module: es_core
+#: selection:es.sql.query.consolidable.field,math_operation:0
+msgid "Min"
+msgstr "Mínimo"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:201
+#: selection:es.sql.helper,interval_type:0
+#, python-format
+msgid "Minutes"
+msgstr "Minutos"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:181
+#: code:addons/es_core/wizard/wizard_create_importer.py:195
+#, python-format
+msgid "Missing Reference"
+msgstr "Referencia Perdida"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:94
+#: model:ir.model.fields,field_description:es_core.field_base_ticket__model_id
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping__model_id
+#: model:ir.model.fields,field_description:es_core.field_es_tip__cxt_model
+#, python-format
+msgid "Model"
+msgstr "Modelo"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:46
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__model_field_id
+#, python-format
+msgid "Model Field"
+msgstr "Campo"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__cxt_state
+msgid "Model State"
+msgstr "Estado"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:52
+#, python-format
+msgid "Modifiers:"
+msgstr "Modificadores:"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__cxt_time
+msgid "Moment of Day"
+msgstr "Momento del Dia"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:17
+#: code:addons/es_core/static/src/xml/web_gantt.xml:23
+#: code:addons/es_core/static/src/xml/web_gantt.xml:31
+#: code:addons/es_core/static/src/xml/web_gantt.xml:40
+#, python-format
+msgid "Month"
+msgstr "Mes"
+
+#. module: es_core
+#: selection:es.sql.helper,interval_type:0
+msgid "Months"
+msgstr "Meses"
+
+#. module: es_core
+#: selection:es.sql.query.consolidable.field,math_operation:0
+msgid "Mult"
+msgstr "Multiplicar"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_company__code_nae
+msgid "NAE Code"
+msgstr "Código NAE"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_company__code_nit
+msgid "NIT Code"
+msgstr "Código NIT"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__name
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__name
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:12
+#: code:addons/es_core/static/src/xml/dashboard.xml:17
+#, python-format
+msgid "Name:"
+msgstr "Nombre:"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_gantt.xml:17
+#, python-format
+msgid "Next"
+msgstr "Siguiente"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/systray_alert.xml:19
+#, python-format
+msgid "No alerts found."
+msgstr "No se encontraron alertas."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_cohort.xml:204
+#, python-format
+msgid "No data available for cohort."
+msgstr "No hay datos disponibles."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_cohort.xml:128
+#: code:addons/es_core/static/src/xml/web_cohort.xml:201
+#, python-format
+msgid "No data available."
+msgstr "No hay datos disponibles."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:47
+#, python-format
+msgid "No result"
+msgstr "Sin resultados"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/systray_tips.xml:34
+#, python-format
+msgid "No tips found."
+msgstr "No se econtraron tips."
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:130
+#, python-format
+msgid "Normal"
+msgstr "Normal"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_helper_form
+msgid ""
+"Note: If you wish get the data consolidated, then the results olny contain\n"
+"                                        the column consolidable, defined in the Query Form View."
+msgstr ""
+"Nota: si deseas obtener la información consolidada, entonces los resultados solo contendrán \n"
+"las columnas consolidables, definidas en la Vista de Formulario de la Consulta SQL."
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+msgid ""
+"Note: Params in query must be added like this: %param_name%,\n"
+"                                and only accept Letter and _\n"
+"                                <br/>\n"
+"                                Please use prefix to infer param data type:\n"
+"                                <b>str_, int_, float_, bool_, date_</b>"
+msgstr ""
+"Nota: Los parametros en la consulta deben ser nombrados asi: %param_name%,\n"
+"y solo aceptan LETRAS y _\n"
+"<br/>\n"
+"Por favor use los siguientes prefijos para inferior el tipo de dato del parametron:\n"
+"<b>str_, int_, float_, bool_, date_</b>"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:51
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__notes
+#, python-format
+msgid "Notes"
+msgstr "Notas"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:181
+#, python-format
+msgid "November"
+msgstr "Noviembre"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:180
+#, python-format
+msgid "October"
+msgstr "Octubre"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:145
+#, python-format
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_tip__cxt_model
+msgid "Only display when user show this model"
+msgstr "Solo se muestra cuando el usuario está viendo este modelo"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_tip__cxt_state
+msgid "Only display when user show this model on this state"
+msgstr "Solo se muestra cuando el usuario está viendo este modelo en este estado"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_tip__cxt_view_type
+msgid "Only display when user show this view type"
+msgstr "Solo se muestra cuando el usuario está viendo esta vista"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_tip__cxt_group_ids
+msgid "Only display whether user belong to these groups"
+msgstr "Solo se muestra cuando el usuario pertenece a estos grupos"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_tip__cxt_time
+msgid "Only display whether user use the app after this time"
+msgstr "Solo se muestra cuando el usuario entra al sistema a partir de este momento"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_tip__cxt_date
+msgid "Only display whether user use the app this specific date"
+msgstr "Solo se muestra cuando el usuario entra al sistema a partir de esta fecha"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:39
+#, python-format
+msgid "Only selected"
+msgstr "Solo seleccionado"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:36
+#, python-format
+msgid "Only visible results"
+msgstr "Solo resultados visibles"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:33
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__order
+#, python-format
+msgid "Order"
+msgstr "Orden"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:48
+#, python-format
+msgid "PDF"
+msgstr "PDF"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:77
+#, python-format
+msgid "Param '%s' must start with a valid prefix"
+msgstr "Parámetro '%s' debe comenzar con un prefijo válido"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_cohort.xml:43
+#, python-format
+msgid "Period:"
+msgstr "Período:"
+
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0 selection:ir.ui.view,type:0
+msgid "Pivot"
+msgstr "Pivote"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__pool_reset_after
+msgid "Pool Reset (min)"
+msgstr "Resetear después de (min)"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__port
+msgid "Port"
+msgstr "Puerto"
+
+#. module: es_core
+#: selection:es.sql.provider,driver:0
+msgid "PostgreSQL ANSI(x64)"
+msgstr "PostgreSQL ANSI(x64)"
+
+#. module: es_core
+#: selection:es.sql.provider,driver:0
+msgid "PostgreSQL Unicode(x64)"
+msgstr "PostgreSQL Unicode(x64)"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_gantt.xml:11
+#, python-format
+msgid "Previous"
+msgstr "Anterior"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:16
+#, python-format
+msgid "Private Address"
+msgstr "Dirección Personal"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__provider_group_id
+msgid "Provider Group"
+msgstr "Grupo de Proveedores"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__provider_ids
+msgid "Providers"
+msgstr "Proveedores"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__code
+#: model_terms:ir.ui.view,arch_db:es_core.sql_helper_form
+msgid "Python Code"
+msgstr "Código Python"
+
+#. module: es_core
+#: selection:ir.ui.view,type:0
+msgid "QWeb"
+msgstr "QWeb"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__query_id
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__query
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__query_id
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+msgid "Query"
+msgstr "Consulta"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:50
+#, python-format
+msgid "Query \"%s\" do not have defined a consolidable field."
+msgstr "La consulta \"%s\" no tiene definido ningun campo consolidable."
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__query_parameter_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__query_parameter_ids
+msgid "Query Parameters"
+msgstr "Parametros de la consulta"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__query_return_type
+msgid "Query Return Type"
+msgstr "Tipo de retorno"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__quotechar
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "Quote char"
+msgstr "Caracter"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__quoting
+msgid "Quoting"
+msgstr "Comillas"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_company__code_reeup
+msgid "REEUP Code"
+msgstr "Código REEUP"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:225
+#, python-format
+msgid "Record %s has been CREATED"
+msgstr "El element %s ha sido CREADO"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:222
+#, python-format
+msgid "Record %s has been UPDATED"
+msgstr "El element %s ha sido ACTUALIZADO"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:48
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__model_field_relation
+#, python-format
+msgid "Relation"
+msgstr "Relación"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_sql_helper__interval_number
+msgid "Repeat every x."
+msgstr "Repetir cada x."
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_sql_provider__pool_reset_after
+msgid "Reset connections after this time"
+msgstr "Resetear las conexiones después de"
+
+#. module: es_core
+#: selection:es.sql.query.consolidable.field,math_operation:0
+msgid "Rest"
+msgstr "Resta"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/exportable_views.xml:30
+#, python-format
+msgid "Results"
+msgstr "Resultados"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:148
+#, python-format
+msgid "Row data in line \"%s\" have more element than headers."
+msgstr "La línea \"%s\" tiene más elemetos que la cabecera."
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_helper_form
+#: model_terms:ir.ui.view,arch_db:es_core.sql_synchronize_form
+msgid "Run Manually"
+msgstr "Ejecutar Manualmente"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_sql_helper_tree
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__helper_ids
+#: model:ir.model.fields,field_description:es_core.field_res_config_settings__sql_helper_ids
+#: model:ir.ui.menu,name:es_core.menu_external_sql_helper
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+msgid "SQL Helpers"
+msgstr "Asistente SQL"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_form
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_tree
+msgid "SQL Provider"
+msgstr "Proveedor SQL"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_group_form
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_group_tree
+msgid "SQL Provider Group"
+msgstr "Grupo de Proveedores SQL"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_sql_provider_group_tree
+#: model:ir.ui.menu,name:es_core.menu_external_sql_provider_group
+msgid "SQL Provider Groups"
+msgstr "Grupo de Proveedores SQL"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_sql_provider_tree
+#: model:ir.model.fields,field_description:es_core.field_res_company__sql_provider_ids
+#: model:ir.ui.menu,name:es_core.menu_external_sql_provider
+msgid "SQL Providers"
+msgstr "Proveedores SQL"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_sql_query_tree
+#: model:ir.ui.menu,name:es_core.menu_external_sql_query
+msgid "SQL Queries"
+msgstr "Consultas SQL"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_search
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_tree
+msgid "SQL Query"
+msgstr "Consulta SQL"
+
+#. module: es_core
+#: selection:es.sql.provider,driver:0
+msgid "SQL Server"
+msgstr "Servidor SQL"
+
+#. module: es_core
+#: selection:es.sql.provider,driver:0
+msgid "SQL Server Native Client 10.0"
+msgstr "Cliente Nativo 10.0 de SQL Server"
+
+#. module: es_core
+#: model:ir.actions.act_window,name:es_core.action_sql_synchronize_form
+#: model:ir.ui.menu,name:es_core.menu_action_sql_synchronize_form
+msgid "SQL Synchronize"
+msgstr "Sincronizador SQL"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__cron_id
+msgid "Schedule Task"
+msgstr "Tarea Programada"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_helper_form
+msgid "Scheduling"
+msgstr "Programando"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:5 selection:ir.ui.view,type:0
+#, python-format
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:49
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__model_field_relation_field_id
+#, python-format
+msgid "Search On"
+msgstr "Búsqueda"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:6
+#, python-format
+msgid "Search..."
+msgstr "Búsqueda..."
+
+#. module: es_core
+#: selection:es.sql.helper,query_return_type:0
+msgid "Separate"
+msgstr "Separado"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:179
+#, python-format
+msgid "September"
+msgstr "Septiembre"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_ir_actions_server
+msgid "Server Action"
+msgstr "Acción del servidor"
+
+
+
+#. module: es_core
+#: code:addons/es_core/models/models.py:576
+#, python-format
+msgid "Some important message don't have been notified to you because you don't have a valid email"
+msgstr "Algunos mensajes importantes no te han sido notificados porque usted no posee una dirección de correo válida"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__cxt_date
+msgid "Specific Date"
+msgstr "Fecha Específica"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__cxt_group_ids
+msgid "Specific Groups"
+msgstr "Grupo Específico"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__state
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__state_id
+msgid "State"
+msgstr "Estado"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_country__street_format
+msgid "Street Format"
+msgstr "Formato de Dirección"
+
+#. module: es_core
+#: code:addons/es_core/models/datasource_providers.py:239
+#: selection:es.sql.helper.parameter,type:0
+#, python-format
+msgid "String"
+msgstr "Cadena"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:21
+#, python-format
+msgid "String:"
+msgstr "Cadena:"
+
+#. module: es_core
+#: selection:es.sql.query.consolidable.field,math_operation:0
+msgid "Sum"
+msgstr "Suma"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_form
+#: model_terms:ir.ui.view,arch_db:es_core.sql_provider_tree
+msgid "Test Connection"
+msgstr "Probar conexión"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:162
+#, python-format
+msgid "The (name,code) must be unique !"
+msgstr "La combinación (nombre, código) debe ser única!"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:163
+#, python-format
+msgid "The (name,type) must be unique !"
+msgstr "La combinación (nombre, tipo) debe ser única!"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:164
+#, python-format
+msgid "The (type,code) must be unique !"
+msgstr "La combinación (tipo, código) debe ser única!"
+
+#. module: es_core
+#: sql_constraint:res.company:0
+msgid "The NAE Code must be unique!"
+msgstr "El código NAE debe ser único!"
+
+#. module: es_core
+#: sql_constraint:res.company:0
+msgid "The NIT Code must be unique!"
+msgstr "El código NIT debe ser único!"
+
+#. module: es_core
+#: sql_constraint:res.company:0
+msgid "The REEUP Code must be unique!"
+msgstr "El código REEUP debe ser único!"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:165 sql_constraint:es.tip:0
+#, python-format
+msgid "The code must be unique !"
+msgstr "El código debe ser único!"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:161 sql_constraint:es.sql.provider:0
+#: sql_constraint:es.sql.provider.group:0
+#, python-format
+msgid "The name must be unique !"
+msgstr "El nombre debe ser único!"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.sql_query_form
+msgid ""
+"This field help you to consolidate data over record with same value\n"
+"                                on \"unique_record_field\" after evaluate this query on different providers.\n"
+"                                Please put here the name of the one COLUMN of the query."
+msgstr ""
+"Este campo te ayuda a consolidar la información sobre registros con el mismo valor\n"
+"en el campo \"unique_record_field\" después de evaluar la consulta sql en los proveedores.\n"
+"Por favor pon aqui el nombre de una de las columnas de la consulta."
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_sql_query__unique_record_field
+msgid "This field help you to consolidate data over record with same value on \"unique_record_field\" after evaluate this query on different providers. Please put here the name of the one COLUMN of the query"
+msgstr ""
+"Este campo te ayuda a consolidar la información sobre registros con el mismo valor\n"
+"en el campo \"unique_record_field\" después de evaluar la consulta sql en los proveedores.\n"
+"Por favor pon aqui el nombre de una de las columnas de la consulta"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "This setting will be used to parse csv file"
+msgstr "Esta configuración se usarâ para parsear el fichero csv"
+
+#. module: es_core
+#: code:addons/es_core/models/res_users.py:41
+#, python-format
+msgid "This user must have a email."
+msgstr "Este usuario debe tener un correo."
+
+#. module: es_core
+#: code:addons/es_core/models/res_users.py:43
+#, python-format
+msgid "This user must have a valid email."
+msgstr "Este usuario debe tener un correo vâlido."
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field__unknown__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_import__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_mapping__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_noreadonly__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_readonly__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_required__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_states__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_stillreadonly__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_complex__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_float__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o_related__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o_required__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o_required_related__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_o2m__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_o2m_child__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_preview__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_language_export__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_language_import__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_language_install__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_module_uninstall__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_module_update__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_module_upgrade__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_partner_merge_automatic_wizard__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_partner_merge_line__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_ticket__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_base_update_translations__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_bus_bus__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_bus_presence__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_change_password_user__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_change_password_wizard__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_email_template_preview__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_tip__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_wizard_module_import__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_es_wizard_module_import_error__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_fetchmail_server__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_format_address_mixin__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_iap_account__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_url__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window_close__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window_view__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_actions__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_client__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_report__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_server__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_todo__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_attachment__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_autovacuum__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_config_parameter__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_cron__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_default__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_demo__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_demo_failure__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_demo_failure_wizard__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_exports__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_exports_line__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_fields_converter__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_filters__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_http__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_logging__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_mail_server__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_model__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_model_access__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_model_constraint__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_model_data__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_model_fields__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_model_relation__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_module_category__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_module_module__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_module_module_dependency__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_module_module_exclusion__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_property__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_barcode__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_contact__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_date__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_datetime__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_duration__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_float__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_float_time__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_html__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_image__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_integer__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_many2many__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_many2one__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_monetary__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_qweb__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_relative__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_selection__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_text__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_rule__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_sequence__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_sequence_date_range__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_server_object_lines__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_translation__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_menu__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_view__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_view_custom__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_activity__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_activity_mixin__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_activity_type__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_alias__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_alias_mixin__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_blacklist__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_blacklist_mixin__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_bot__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_channel__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_channel_partner__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_compose_message__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_followers__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_mail__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_message__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_message_subtype__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_moderation__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_notification__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_resend_cancel__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_resend_message__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_resend_partner__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_shortcode__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_template__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_thread__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_tracking_value__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_mail_wizard_invite__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_publisher_warranty_contract__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_report_base_report_irmodulereference__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_report_layout__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_report_paperformat__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_bank__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_company__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_config__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_config_installer__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_config_settings__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_country__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_country_group__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_country_state__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_currency__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_currency_rate__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_groups__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_lang__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_partner__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_partner_autocomplete_sync__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_partner_bank__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_partner_category__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_partner_industry__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_partner_title__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_users__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_res_users_log__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_sms_api__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_sms_send_sms__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_snailmail_letter__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_utm_campaign__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_utm_medium__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_utm_mixin__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_utm_source__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_web_editor_converter_test_sub__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_web_tour_tour__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__ticket_details
+#: model:ir.model.fields,field_description:es_core.field_wizard_ir_model_menu_create__ticket_details
+msgid "Ticket Details"
+msgstr "Detalles del Ticket"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field__unknown__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_import__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_mapping__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_noreadonly__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_readonly__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_required__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_states__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_char_stillreadonly__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_complex__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_float__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o_related__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o_required__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_m2o_required_related__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_o2m__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_o2m_child__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_import_tests_models_preview__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_language_export__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_language_import__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_language_install__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_module_uninstall__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_module_update__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_module_upgrade__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_partner_merge_automatic_wizard__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_partner_merge_line__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_ticket__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_base_update_translations__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_bus_bus__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_bus_presence__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_change_password_user__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_change_password_wizard__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_email_template_preview__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider_group__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query_consolidable_field__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_sql_synchronize__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_tip__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_wizard_module_import__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_es_wizard_module_import_error__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_fetchmail_server__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_format_address_mixin__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_iap_account__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_url__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window_close__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window_view__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_actions__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_client__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_report__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_server__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_todo__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_attachment__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_autovacuum__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_config_parameter__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_cron__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_default__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_demo__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_demo_failure__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_demo_failure_wizard__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_exports__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_exports_line__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_fields_converter__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_filters__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_http__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_logging__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_mail_server__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_model__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_model_access__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_model_constraint__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_model_data__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_model_fields__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_model_relation__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_module_category__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_module_module__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_module_module_dependency__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_module_module_exclusion__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_property__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_barcode__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_contact__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_date__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_datetime__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_duration__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_float__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_float_time__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_html__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_image__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_integer__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_many2many__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_many2one__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_monetary__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_qweb__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_relative__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_selection__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_qweb_field_text__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_rule__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_sequence__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_sequence_date_range__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_server_object_lines__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_translation__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_menu__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_view__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_view_custom__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_activity__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_activity_mixin__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_activity_type__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_alias__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_alias_mixin__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_blacklist__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_blacklist_mixin__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_bot__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_channel__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_channel_partner__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_compose_message__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_followers__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_mail__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_message__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_message_subtype__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_moderation__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_notification__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_resend_cancel__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_resend_message__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_resend_partner__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_shortcode__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_template__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_thread__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_tracking_value__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_mail_wizard_invite__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_publisher_warranty_contract__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_report_base_report_irmodulereference__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_report_layout__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_report_paperformat__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_bank__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_company__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_config__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_config_installer__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_config_settings__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_country__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_country_group__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_country_state__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_country_state_city__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_currency__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_currency_rate__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_groups__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_lang__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_partner__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_partner_autocomplete_sync__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_partner_bank__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_partner_category__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_partner_industry__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_partner_title__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_users__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_res_users_log__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_sms_api__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_sms_send_sms__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_snailmail_letter__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_utm_campaign__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_utm_medium__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_utm_mixin__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_utm_source__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_web_editor_converter_test_sub__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_web_tour_tour__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__ticket_ids
+#: model:ir.model.fields,field_description:es_core.field_wizard_ir_model_menu_create__ticket_ids
+msgid "Tickets"
+msgstr "Ticket"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__timeout
+msgid "Timeout (sec)"
+msgstr "Espera(seg)"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/systray_tips.xml:6
+#, python-format
+msgid "Tips"
+msgstr "Tips"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_res_users__tip_viewed_ids
+msgid "Tips Viewed"
+msgstr "Tips vistos"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__name
+msgid "Title"
+msgstr "Título"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/web_gantt.xml:14
+#, python-format
+msgid "Today"
+msgstr "Hoy"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:154
+#, python-format
+msgid "Toggle home menu"
+msgstr "Menu Inicio"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/base.xml:57
+#, python-format
+msgid "Toggle menu"
+msgstr "Menu Inicio"
+
+#. module: es_core
+#: selection:ir.actions.act_window.view,view_mode:0 selection:ir.ui.view,type:0
+msgid "Tree"
+msgstr "Árbol"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:47
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__model_field_type
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__type
+#, python-format
+msgid "Type"
+msgstr "Tipo"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_query__unique_record_field
+msgid "Unique Record Field"
+msgstr "Campo Unico"
+
+#. module: es_core
+#: code:addons/es_core/models/models.py:502
+#, python-format
+msgid "Unsupported report type %s found."
+msgstr "Tipo de reporte %s no soportado."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:74
+#, python-format
+msgid "Untitled"
+msgstr "Sin titulo"
+
+#. module: es_core
+#: code:addons/es_core/models/migration.py:50
+#: model:ir.model.fields,field_description:es_core.field_es_migration_mapping_item__update_if
+#, python-format
+msgid "Update if"
+msgstr "Actualizar si"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:132
+#, python-format
+msgid "Urgent"
+msgstr "Urgente"
+
+#. module: es_core
+#: code:addons/es_core/models/session.py:40
+#: model_terms:ir.ui.view,arch_db:es_core.view_search_session
+#, python-format
+msgid "User"
+msgstr "Usuario"
+
+#. module: es_core
+#: code:addons/es_core/controllers/http.py:71
+#, python-format
+msgid "User %s don't have allowed login from %s"
+msgstr "El usuario %s no tiene permitido loguearse desde %s"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:117
+#, python-format
+msgid "User Alerts"
+msgstr "Alertas"
+
+#. module: es_core
+#: selection:es.session,logout_type:0
+msgid "User Logout"
+msgstr "Deslogueo"
+
+#. module: es_core
+#: code:addons/es_core/controllers/http.py:69
+#, python-format
+msgid "User group %s don't have allowed login from %s"
+msgstr "Los usuarios del grupo %s no tiene permitido loguearse desde %s"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_provider__username
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_res_users
+msgid "Users"
+msgstr "Usuarios"
+
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_sql_helper_parameter__sql_value
+msgid "Valid value to replace in query"
+msgstr "Valor vâlido para reemplazar en la consulta"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__sql_value
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__value_bool
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__value_date
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__value_float
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__value_int
+#: model:ir.model.fields,field_description:es_core.field_es_sql_helper_parameter__value_str
+msgid "Value"
+msgstr "Valor"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:182
+#: code:addons/es_core/wizard/wizard_create_importer.py:196
+#, python-format
+msgid "Value \"%s\" associated to column \"%s\" does not exist in database."
+msgstr "El valor \"%s\" asociado a la columna \"%s\" no existe en la base de datos."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:56
+#, python-format
+msgid "Value Label:"
+msgstr "Etiqueta:"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:29
+#, python-format
+msgid "Value:"
+msgstr "Valor:"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_ir_ui_view
+msgid "View"
+msgstr "Vista"
+
+#. module: es_core
+#: model:ir.model.fields,field_description:es_core.field_es_tip__cxt_view_type
+#: model:ir.model.fields,field_description:es_core.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:es_core.field_ir_ui_view__type
+msgid "View Type"
+msgstr "Tipo de vista"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:111
+#, python-format
+msgid "Warning"
+msgstr "Advertencia"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:16
+#: code:addons/es_core/static/src/xml/web_gantt.xml:28
+#: code:addons/es_core/static/src/xml/web_gantt.xml:39
+#, python-format
+msgid "Week"
+msgstr "Semana"
+
+#. module: es_core
+#: selection:es.sql.helper,interval_type:0
+msgid "Weeks"
+msgstr "Semanas"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/xml/dashboard.xml:48
+#, python-format
+msgid "Widget:"
+msgstr "Componente:"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:30
+#: model:ir.model.fields,field_description:es_core.field_wizard_es_import_item__wizard_id
+#, python-format
+msgid "Wizard"
+msgstr "Asistente"
+
+#. module: es_core
+#: model:ir.model.fields,help:es_core.field_es_sql_helper__code
+msgid "Write Python code that the action will execute. Some variables are available for use; help about python expression is given in the help tab."
+msgstr "Escribe el código python que se ejecutará. Algunas variables están disponibles para usarse; la ayuda asociada a las expresiones python está descrita en el tab HELP."
+
+#. module: es_core
+#: code:addons/es_core/controllers/http.py:33
+#, python-format
+msgid "Wrong login/password"
+msgstr "Usuario/contraseña incorrectas"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:208
+#: selection:es.session,login_type:0
+#, python-format
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/cohort/cohort_view.js:18
+#: code:addons/es_core/static/src/xml/web_gantt.xml:33
+#: code:addons/es_core/static/src/xml/web_gantt.xml:41
+#, python-format
+msgid "Year"
+msgstr "Año"
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/gantt/gantt_controller.js:208
+#, python-format
+msgid "You are trying to write on a read-only field!"
+msgstr "Estás tratando de escribir en un campo de solo-lectura!"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "You can modify the setting on openerp-server.conf."
+msgstr "Tu puedes modificar las configuraciones en odoo.conf."
+
+#. module: es_core
+#. openerp-web
+#: code:addons/es_core/static/src/js/views/gantt/gantt_controller.js:203
+#, python-format
+msgid "You have no date_stop field defined!"
+msgstr "Tu no tienes definido valor para el campo date_stop!"
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:118
+#, python-format
+msgid "You have some users without <span class=\"badge badge-info\">EMAILS</span>"
+msgstr "Tu tienes usuarios sin <span class=\"badge badge-info\">CORREOS</span>"
+
+#. module: es_core
+#: code:addons/es_core/wizard/wizard_create_importer.py:108
+#, python-format
+msgid "You need specify an mapping before import this file."
+msgstr "Tu necesitas especificar un mapeo antes de importer este fichero."
+
+#. module: es_core
+#: code:addons/es_core/scripts/__init__.py:219
+#, python-format
+msgid "Zip"
+msgstr "Zip"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "csv_internal_quoting"
+msgstr "csv_internal_quoting"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "csv_internal_sep"
+msgstr "csv_internal_sep"
+
+#. module: es_core
+#: model_terms:ir.ui.view,arch_db:es_core.view_wizard_wizard_import
+msgid "encoding"
+msgstr "codificación"
+
+#. module: es_core
+#: model:ir.model,name:es_core.model_es_sql_helper
+#: model:ir.model,name:es_core.model_es_sql_helper_parameter
+#: model:ir.model,name:es_core.model_es_sql_provider
+#: model:ir.model,name:es_core.model_es_sql_provider_group
+#: model:ir.model,name:es_core.model_es_sql_query
+#: model:ir.model,name:es_core.model_es_sql_query_consolidable_field
+#: model:ir.model,name:es_core.model_es_sql_synchronize
+#: model:ir.model,name:es_core.model_es_tip
+#: model:ir.model,name:es_core.model_res_country_state_city
+#: model:ir.model,name:es_core.model_wizard_es_import
+#: model:ir.model,name:es_core.model_wizard_es_import_item
+msgid "no description"
+msgstr "sin descripción"

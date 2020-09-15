@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_company_form" model="ir.ui.view">
+        <field name="name">res.company.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <field name="parent_id" position="after">
+                <field name="activity"/>
+                <field name="company_type"/>
+            </field>
+            <field name="vat" position="replace">
+                <field name="vat" string="NIT"/>
+            </field>
+            <field name="company_registry" position="replace">
+                <field name="company_registry" string="REEUP"/>
+                <field name="nae"/>
+                <field name="token" placeholder="Token"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="yap_view_company_tree" model="ir.ui.view">
+        <field name="inherit_id" ref="base.view_company_tree"/>
+        <field name="model">res.company</field>
+        <field name="field_parent">child_ids</field>
+        <field name="arch" type="xml">
+            <field name="partner_id" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="token"/>
+                <field name="country_id" invisible="1"/>
+                <field name="state_id" invisible="1"/>
+                <field name="city" invisible="1"/>
+                <field name="activity" invisible="1"/>
+                <field name="company_type" invisible="1"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="yap_view_res_company_filter" model="ir.ui.view">
+        <field name="name">yap.res.company.select</field>
+        <field name="model">res.company</field>
+        <field name="arch" type="xml">
+            <search string="Search Company">
+                <field name="name"
+                       filter_domain="['|','|',('display_name','ilike',self),('ref','=',self),('email','ilike',self)]"/>
+                <field name="parent_id" domain="[('is_company','=',True)]" operator="child_of"/>
+                <separator/>
+                <field name="phone" filter_domain="['|',('phone','ilike',self),('mobile','=',self)]"/>
+                <group expand="0" name="group_by" string="Group By">
+                    <filter name="group_company" string="Company" context="{'group_by': 'parent_id'}"/>
+                    <filter name="group_country" string="Country" context="{'group_by': 'country_id'}"/>
+                    <filter name="group_state" string="State" context="{'group_by': 'state_id'}"/>
+                    <filter name="group_city" string="City" context="{'group_by': 'city'}"/>
+                    <separator/>
+                    <filter name="group_activity" string="Activity" context="{'group_by': 'activity'}"/>
+                    <filter name="group_company_type" string="Company Type" context="{'group_by': 'company_type'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--cambiando el domain para que solo se acceda a los modulos de ERP STATION-->
+    <record model="ir.actions.act_window" id="base.open_module_tree">
+        <field name="domain">['|', ('shortdesc', 'like', 'ES:'), ('shortdesc', 'like', 'YAP:')]</field>
+    </record>
+</odoo>

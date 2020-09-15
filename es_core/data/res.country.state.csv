@@ -1,0 +1,18 @@
+"id","name","code","country_id:id"
+es_core.cu_ART,ARTEMISA,22,base.cu
+es_core.cu_CAV,CIEGO DE AVILA,29,base.cu
+es_core.cu_CFG,CIENFUEGOS,27,base.cu
+es_core.cu_CMG,CAMAGUEY,30,base.cu
+es_core.cu_GRM,GRANMA,33,base.cu
+es_core.cu_GTM,GUANTANAMO,35,base.cu
+es_core.cu_HLG,HOLGUIN,32,base.cu
+es_core.cu_IJV,ISLA DE LA JUVENTUD,40,base.cu
+es_core.cu_IND,Territorio Indefinido,00,base.cu
+es_core.cu_LH,LA HABANA,23,base.cu
+es_core.cu_LTU,LAS TUNAS,31,base.cu
+es_core.cu_MAY,MAYABEQUE,24,base.cu
+es_core.cu_MAZ,MATANZAS,25,base.cu
+es_core.cu_PRI,PINAR DEL RIO,21,base.cu
+es_core.cu_SCU,SANTIAGO DE CUBA,34,base.cu
+es_core.cu_SSP,SANCTI SPIRITUS,28,base.cu
+es_core.cu_VLC,VILLA CLARA,26,base.cu

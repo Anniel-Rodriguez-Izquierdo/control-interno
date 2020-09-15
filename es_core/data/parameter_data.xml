@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="ir.config_parameter" forcecreate="1" id="technology_name">
+            <field name="key">es_core.technology_name</field>
+            <field name="value">ERP Station Technology</field>
+        </record>
+        <record model="ir.config_parameter" forcecreate="1" id="technology_website">
+            <field name="key">es_core.technology_website</field>
+            <field name="value">www.facebook.com/erp_station</field>
+        </record>
+        <record model="ir.config_parameter" forcecreate="1" id="technology_author">
+            <field name="key">es_core.technology_author</field>
+            <field name="value">Anniel Rodriguez Izquierdo</field>
+        </record>
+        <record model="ir.config_parameter" forcecreate="1" id="technology_author_email">
+            <field name="key">es_core.technology_author_email</field>
+            <field name="value">kondoriano1985@gmail.com</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="view_tree_component">
+        <field name="name">syap.ic.component.tree</field>
+        <field name="model">syap.ic.component</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="view_form_component">
+        <field name="name">syap.ic.component.form</field>
+        <field name="model">syap.ic.component</field>
+        <field name="arch" type="xml">
+            <form string="Component">
+                <sheet>
+                    <group>
+                        <field name="sequence"/>
+                        <field name="name"/>
+                        <field name="aoi_ids"/>
+                        <field name="topic_ids"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_view_tree_component">
+        <field name="name">Guide Components</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">syap.ic.component</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new guide Component here
+            </p>
+        </field>
+    </record>
+</odoo>
